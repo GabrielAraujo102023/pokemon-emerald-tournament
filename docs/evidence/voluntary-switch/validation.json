@@ -1,0 +1,274 @@
+{
+  "scope": "bounded voluntary-switch path only; terminal outcome not required",
+  "passed": true,
+  "runs": [
+    {
+      "side": 0,
+      "battle_result": {
+        "trainer_a": 100,
+        "trainer_b": 210,
+        "seed": 12345,
+        "outcome": "timeout",
+        "terminal_from_engine": false,
+        "frames": 12000,
+        "turns": 10,
+        "rng_start": 12345,
+        "rng_after_party_init": 2196700069,
+        "rng_final": null,
+        "initial_party_sha256": "055d25d7ba6b7d94d4aae65a727c8cc7659200df05d9d35807efeacfd7f548d8",
+        "trace_sha256": "24dd3f31a83d31a3cee70f29ca898a8394d57693d08f3e0b5b9d6d27fc9c38dc",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "proofs": [
+        {
+          "selection": {
+            "battler": 0,
+            "event": "switch_selected",
+            "kind": 5,
+            "phase": 5,
+            "rng": 198518704,
+            "sequence": 40,
+            "turn": 1,
+            "value0": 1,
+            "value1": 0
+          },
+          "before": {
+            "attacker": 1,
+            "event_count": 40,
+            "frame": 1650,
+            "hp": [
+              98,
+              55
+            ],
+            "item": 0,
+            "max_hp": [
+              120,
+              81
+            ],
+            "script": 136254339,
+            "slots": [
+              0,
+              0
+            ],
+            "species": [
+              28,
+              219
+            ]
+          },
+          "loaded": {
+            "attacker": 0,
+            "event_count": 44,
+            "frame": 1808,
+            "hp": [
+              118,
+              55
+            ],
+            "item": 0,
+            "max_hp": [
+              118,
+              81
+            ],
+            "script": 136262787,
+            "slots": [
+              1,
+              0
+            ],
+            "species": [
+              38,
+              219
+            ]
+          },
+          "next_move": {
+            "battler": 0,
+            "event": "move_selected",
+            "kind": 4,
+            "phase": 5,
+            "rng": 3407055863,
+            "sequence": 46,
+            "turn": 2,
+            "value0": 219,
+            "value1": 0
+          },
+          "acting": {
+            "attacker": 1,
+            "event_count": 47,
+            "frame": 2474,
+            "hp": [
+              92,
+              55
+            ],
+            "item": 0,
+            "max_hp": [
+              118,
+              81
+            ],
+            "script": 136254339,
+            "slots": [
+              1,
+              0
+            ],
+            "species": [
+              38,
+              219
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "battle_result": {
+        "trainer_a": 210,
+        "trainer_b": 100,
+        "seed": 7,
+        "outcome": "timeout",
+        "terminal_from_engine": false,
+        "frames": 12000,
+        "turns": 9,
+        "rng_start": 7,
+        "rng_after_party_init": 3952859539,
+        "rng_final": null,
+        "initial_party_sha256": "0ddf4c4b61ca945b0c3c7b76c7c1478987a44d864a03cc3c02978a6abda26a70",
+        "trace_sha256": "cf4f2828b42102fa63f04d8008050697105282a3cf5a25e0d31f8dde1846c6c1",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "proofs": [
+        {
+          "selection": {
+            "battler": 1,
+            "event": "switch_selected",
+            "kind": 5,
+            "phase": 5,
+            "rng": 3547310335,
+            "sequence": 59,
+            "turn": 5,
+            "value0": 1,
+            "value1": 0
+          },
+          "before": {
+            "attacker": 0,
+            "event_count": 59,
+            "frame": 6516,
+            "hp": [
+              54,
+              82
+            ],
+            "item": 0,
+            "max_hp": [
+              81,
+              120
+            ],
+            "script": 136264586,
+            "slots": [
+              0,
+              0
+            ],
+            "species": [
+              219,
+              28
+            ]
+          },
+          "loaded": {
+            "attacker": 1,
+            "event_count": 63,
+            "frame": 6816,
+            "hp": [
+              54,
+              118
+            ],
+            "item": 0,
+            "max_hp": [
+              81,
+              118
+            ],
+            "script": 136262787,
+            "slots": [
+              0,
+              1
+            ],
+            "species": [
+              219,
+              38
+            ]
+          },
+          "next_move": {
+            "battler": 1,
+            "event": "move_selected",
+            "kind": 4,
+            "phase": 5,
+            "rng": 4208072759,
+            "sequence": 66,
+            "turn": 6,
+            "value0": 109,
+            "value1": 0
+          },
+          "acting": {
+            "attacker": 0,
+            "event_count": 67,
+            "frame": 7734,
+            "hp": [
+              54,
+              118
+            ],
+            "item": 0,
+            "max_hp": [
+              81,
+              118
+            ],
+            "script": 136254339,
+            "slots": [
+              0,
+              1
+            ],
+            "species": [
+              219,
+              38
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "repeat_checks": {
+    "side-0/events.bin": true,
+    "side-0/initial_parties.bin": true,
+    "side-0/party_a.json": true,
+    "side-0/party_b.json": true,
+    "side-0/engine_observations.jsonl": true,
+    "side-0/battle_result.json": true,
+    "side-1/events.bin": true,
+    "side-1/initial_parties.bin": true,
+    "side-1/party_a.json": true,
+    "side-1/party_b.json": true,
+    "side-1/engine_observations.jsonl": true,
+    "side-1/battle_result.json": true
+  }
+}

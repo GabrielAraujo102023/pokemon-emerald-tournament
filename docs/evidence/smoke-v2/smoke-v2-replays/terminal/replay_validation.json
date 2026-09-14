@@ -1,0 +1,11 @@
+{
+  "match_id": "179ed8f5fa271a89271d825e4a30067e976f315dbd2258e13d56668b29f89395",
+  "passed": true,
+  "compact_result_equal": true,
+  "byte_comparisons": {
+    "events.bin": true,
+    "initial_parties.bin": true,
+    "stopped_parties.bin": true,
+    "final_parties.bin": true
+  }
+}

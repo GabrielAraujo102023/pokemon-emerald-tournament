@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "run_id": "0e7465d80c315d77e94520866cd6b25828806f343540e7b0a04d063bfd408ba5",
+  "verified_captures": 112,
+  "failed_attempts": 0,
+  "no_op_resume": {
+    "run_id": "0e7465d80c315d77e94520866cd6b25828806f343540e7b0a04d063bfd408ba5",
+    "completed": 112,
+    "expected": 112,
+    "newly_completed": 0,
+    "complete": true
+  },
+  "record_set_sha256": "f93012510860286639e31fdf418a67783520a72c32dec72afec79c3d3cae8863",
+  "counts": {
+    "a_win": 58,
+    "b_win": 54,
+    "draw": 0,
+    "timeout": 0
+  }
+}

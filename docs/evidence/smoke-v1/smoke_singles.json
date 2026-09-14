@@ -1,0 +1,14 @@
+{
+  "schema_version":1,
+  "mode":"smoke",
+  "population_manifest":"build/reports/population-v1/population.json",
+  "pairing":"ring",
+  "repetitions":2,
+  "max_frames_by_repetition":[6000,36000],
+  "master_seed":20260913,
+  "seed_version":"sha256-canonical-pair-repetition-orientation-v1",
+  "ranking_config":"config/ranking.yaml",
+  "timeout_policy":"separate censored outcome; no Elo, W/L/D or win-rate contribution",
+  "overflow_policy":"failure with retained diagnostics; no result inserted",
+  "backend":"single-authoritative-emerald-arm-instance"
+}

@@ -1,0 +1,388 @@
+{
+  "config": {
+    "schema_version": 1,
+    "mode": "smoke",
+    "population_manifest": "build/reports/population-v1/population.json",
+    "pairing": "ring",
+    "repetitions": 2,
+    "max_frames_by_repetition": [
+      6000,
+      36000
+    ],
+    "master_seed": 20260913,
+    "seed_version": "sha256-canonical-pair-repetition-orientation-v1",
+    "ranking_config": "config/ranking.yaml",
+    "timeout_policy": "separate censored outcome; no Elo, W/L/D or win-rate contribution",
+    "overflow_policy": "failure with retained diagnostics; no result inserted",
+    "backend": "single-authoritative-emerald-arm-instance"
+  },
+  "population_sha256": "dd0ae78218c3ab6cdea3833f55dcefe57b376585879f03d0c4adb2f3398693f5",
+  "supported_ids": [
+    114,
+    136,
+    320,
+    523,
+    526,
+    532,
+    535,
+    605
+  ],
+  "provenance": {
+    "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+    "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+    "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+    "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+    "rules_version": 1,
+    "abi_version": 2,
+    "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+    "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+    "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "checkpoint_entry": "TournamentReady after normal new-game initialization",
+    "validation_evidence": "build/reports/constructor-validation.json; construction only"
+  },
+  "source_hashes": {
+    "src/emerald_tournament/emu_battle.py": "0f03699401790e261c2e5d1e0bd020aaeb827aa1ba29b292b385c780b31318e0",
+    "src/emerald_tournament/emu_protocol.py": "b09483bfd13a2d7c1a36534d160c7477e3f66cd07cf65be037b592596650189c",
+    "src/emerald_tournament/admission.py": "15519789ac2b7259e912fa97f9a170024749f5ca242edd60543ee3a7a7950446",
+    "src/emerald_tournament/teams.py": "237ed608562954cfdba37f4f64e8b64fef7d2a7f899944b99b3c1b587b92ac84",
+    "adapter/tournament_adapter.c": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+    "adapter/tournament_protocol.h": "3ba72c58abc8fa84f3930d417281a4f928531091ecc4a0f915921a2f98ae9c93",
+    "adapter/tournament_battle.h": "bcf78839165d23456bdbfd820e18e80f0e8bbc92232a30cf92c8d81cdf5aa20d",
+    "tools/apply_battle_adapter.py": "0ee2bf41b0287641a8c1eeac406b3a0439c6ed247f64c2d45fad9139120b361d",
+    "tools/apply_constructor_adapter.py": "de02786570397b6690e199f4b1086f5262874a307d7cb7f961185c328b0f06d7"
+  },
+  "ranking": {
+    "version": 1,
+    "initial_elo": 1500,
+    "k": 32,
+    "order": "schedule ordinal ascending: sorted pair, repetition, orientation",
+    "draw_score": 0.5,
+    "timeouts": "count separately, excluded from Elo and win-rate denominator"
+  },
+  "run_id": "b16c91bc4212c1eeca9c6e3bea3423a819153bae5f660fd399be546049f6520a",
+  "unique_pairs": 8,
+  "expected_battles": 32,
+  "schedule": [
+    {
+      "ordinal": 0,
+      "trainer_a": 114,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3391548287,
+      "max_frames": 6000,
+      "match_id": "545ec2185fd916308828e718ce273b1475cbea9de24ffda12c43d42a6103f233"
+    },
+    {
+      "ordinal": 1,
+      "trainer_a": 136,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 2694319196,
+      "max_frames": 6000,
+      "match_id": "04e1fea953da6617911871406ced850e197abe9b929b4b8fe06944833cccce7d"
+    },
+    {
+      "ordinal": 2,
+      "trainer_a": 114,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2353931152,
+      "max_frames": 36000,
+      "match_id": "922f4a39379da335c57ee5b85282aaa5f28ba3adcef5aaf85e26b1daf52dd1e6"
+    },
+    {
+      "ordinal": 3,
+      "trainer_a": 136,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2047212219,
+      "max_frames": 36000,
+      "match_id": "294ef52d544a53e297d21a872578d6c2b3671be349a08bac5ed77a0004a9757b"
+    },
+    {
+      "ordinal": 4,
+      "trainer_a": 114,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 4143864724,
+      "max_frames": 6000,
+      "match_id": "9156fff3137250fe222fc749eeaf505ca1d2161ef91a0251be174e60c2b1cadd"
+    },
+    {
+      "ordinal": 5,
+      "trainer_a": 605,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1580419788,
+      "max_frames": 6000,
+      "match_id": "539bb2e8100a9949a739459412dd90f8be2f26781e4e644d05fd0fee05a14662"
+    },
+    {
+      "ordinal": 6,
+      "trainer_a": 114,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 809831311,
+      "max_frames": 36000,
+      "match_id": "ba72b729bb4188c032927d627720529255297b884968354a1825f694de97bc10"
+    },
+    {
+      "ordinal": 7,
+      "trainer_a": 605,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 4169789929,
+      "max_frames": 36000,
+      "match_id": "9a8c8d1cbf96900493926c4cb048cffeab4890fc1edc355de33e0081aaf62144"
+    },
+    {
+      "ordinal": 8,
+      "trainer_a": 136,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3833300533,
+      "max_frames": 6000,
+      "match_id": "03132242fdca053a295bf10d8cf7798c5e6f85fdcc81f8ed8049c1b419cbb24a"
+    },
+    {
+      "ordinal": 9,
+      "trainer_a": 320,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 4132212246,
+      "max_frames": 6000,
+      "match_id": "49f25d5d43db45ed18c351b3ef5362e7c0de5b66c9c66be1dfde9c3a725a662f"
+    },
+    {
+      "ordinal": 10,
+      "trainer_a": 136,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 422216208,
+      "max_frames": 36000,
+      "match_id": "1322c3bd2a0a16488c18c6671f72977a03378470604538b17de392c1ef57d0f0"
+    },
+    {
+      "ordinal": 11,
+      "trainer_a": 320,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1517250101,
+      "max_frames": 36000,
+      "match_id": "cfe3e1aba3a057198a8f57aef8d008b86c64dac0b2cca68bd7b46524315c52ed"
+    },
+    {
+      "ordinal": 12,
+      "trainer_a": 320,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 786989063,
+      "max_frames": 6000,
+      "match_id": "7e9f4e33659d080ccf980c2449dde9dfeba21033e3a67f398e80aa9a66453085"
+    },
+    {
+      "ordinal": 13,
+      "trainer_a": 523,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3480789141,
+      "max_frames": 6000,
+      "match_id": "a192095446f7196affab6ae76c2119f4564432c87c877e4e623fbef13e6900ec"
+    },
+    {
+      "ordinal": 14,
+      "trainer_a": 320,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1552681578,
+      "max_frames": 36000,
+      "match_id": "f71e5f75223cd0d51270bdae0a13016eca97fb03c2e33e80e0bdacdcb04ea247"
+    },
+    {
+      "ordinal": 15,
+      "trainer_a": 523,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1373058904,
+      "max_frames": 36000,
+      "match_id": "0f6143862fa54445a91e5dc5fc710cc374f1d3c58932a80d38a5ad6b4bd9797f"
+    },
+    {
+      "ordinal": 16,
+      "trainer_a": 523,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2860372278,
+      "max_frames": 6000,
+      "match_id": "551813dfab2a626c9ecb575f60da6b6fcd51ffd79ea2feeba32937265849a0d1"
+    },
+    {
+      "ordinal": 17,
+      "trainer_a": 526,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1288578079,
+      "max_frames": 6000,
+      "match_id": "f54a11fb5183007d1944b4eb2cb58e12f7cb9c6eff9ebf6b0fac11eaf642f5c6"
+    },
+    {
+      "ordinal": 18,
+      "trainer_a": 523,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2665880902,
+      "max_frames": 36000,
+      "match_id": "f9376ae02a3caf2987e760f0a1e7d54674f32def8d7531550c14a7300268e282"
+    },
+    {
+      "ordinal": 19,
+      "trainer_a": 526,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2839471337,
+      "max_frames": 36000,
+      "match_id": "a2715941a48802cf6d05c6881c20d52166f620a563c4b9bc88e2009b4193d307"
+    },
+    {
+      "ordinal": 20,
+      "trainer_a": 526,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3394035156,
+      "max_frames": 6000,
+      "match_id": "be0660f684bcd3197f2ac3b022879237474fcd871d5eed333b5ca49125d9c4e3"
+    },
+    {
+      "ordinal": 21,
+      "trainer_a": 532,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 20241686,
+      "max_frames": 6000,
+      "match_id": "d6594f1b4659f7501028d37ac5fafc358afd65205b389aca8738df6e9ad7c9dc"
+    },
+    {
+      "ordinal": 22,
+      "trainer_a": 526,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 594197195,
+      "max_frames": 36000,
+      "match_id": "55ead2b368b905a25c72c175acd6e9aa2a69c59246a303e567ca927a069a9c57"
+    },
+    {
+      "ordinal": 23,
+      "trainer_a": 532,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1442473062,
+      "max_frames": 36000,
+      "match_id": "f9210570658967ba7672424b077d818e6a9b8bdb91ddbf2872a62f3dc667c7b6"
+    },
+    {
+      "ordinal": 24,
+      "trainer_a": 532,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 1948751470,
+      "max_frames": 6000,
+      "match_id": "19eb9218d516719330c9e48ea42221895543fd02982910b2fed30eb38286fd4c"
+    },
+    {
+      "ordinal": 25,
+      "trainer_a": 535,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1911886904,
+      "max_frames": 6000,
+      "match_id": "7d5c137b7d8db4029b5a918f3dee808155a199687d8d324e82ff7b4beb202fac"
+    },
+    {
+      "ordinal": 26,
+      "trainer_a": 532,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2544825321,
+      "max_frames": 36000,
+      "match_id": "fc09fadd235c1f677a66e706294357a2c89c569068fa3af16359e08160cf5ef7"
+    },
+    {
+      "ordinal": 27,
+      "trainer_a": 535,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1044587713,
+      "max_frames": 36000,
+      "match_id": "9fa649479606f563d3e9ea6935d605a251e5bad94caebc2e0b51ccfd2c0934fe"
+    },
+    {
+      "ordinal": 28,
+      "trainer_a": 535,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3026303673,
+      "max_frames": 6000,
+      "match_id": "a9c5d9ed66222d1c890694ed90eec9ef4205aaef0c753d5435a1e06c6e045af5"
+    },
+    {
+      "ordinal": 29,
+      "trainer_a": 605,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3551382152,
+      "max_frames": 6000,
+      "match_id": "8b6867ae69acd1e9e9864d8a3caa2a835f04012d135b767e6aae5aa1f65b7d91"
+    },
+    {
+      "ordinal": 30,
+      "trainer_a": 535,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 4069896333,
+      "max_frames": 36000,
+      "match_id": "b5e550af2d485fb3d516f28d3fa025229a1afa87d99641ec6b725b471b3d880e"
+    },
+    {
+      "ordinal": 31,
+      "trainer_a": 605,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2804066496,
+      "max_frames": 36000,
+      "match_id": "fbc478dc0ed59832f9f6fcf4411e0e49d5b2b8b8294cedf6c5cc8822a5c27d0f"
+    }
+  ]
+}

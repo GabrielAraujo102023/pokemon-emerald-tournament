@@ -1,0 +1,23 @@
+{
+  "authorized": true,
+  "scope": "covered-normal-singles-v2; eight of 855 entries, 847 explicit exclusions",
+  "config_sha256": "9152bc135c392b87be91d0073c7e233e463efef187c1daf7a1e835a188cdfcee",
+  "population_sha256": "24801b01958d0df642f16674bf5ce77a4e5e5a88ac35ad5697de3506c518e036",
+  "execution_identity": "7fe45380a400641d8d76b9861c7d5ae6ff9a4de4a0fffa5be39274964b2f8267",
+  "release_manifest_sha256": "4ec58384244f306f515de946fc775459bb6d7eaab1eac66a96c486f7eb97ef37",
+  "evidence": {
+    "ring-v2-cycle/ring-v2-long/validation.json": "bcaf89525fe1f121a3caf20e77a8626c03a98a4356de5e65959ffaa70b53e346",
+    "fullrestore-cycle-v2/validation.json": "54fda720dd37c359af9188275392a4904ea9c4da4e36d1e4d1f0bade000d3c81",
+    "concurrent-items-v2/validation.json": "ec66ead8b685d8eb7968977e845271c26997f8bd8dc1bc38caba5fc1ffaafbcb",
+    "restrictions-status-v2/switch-restrictions-v2/validation.json": "5cad70a882b19fc81f4339e9dfa035bcbcef8844036dbb17d8120b4855cb1af7",
+    "restrictions-status-v2/status-proof-v2/validation.json": "163efd8755e4773a644db32274d68ee5acad3452da057d6a51c26ac4b07cdae0",
+    "effects-v2/effect-proof-v2-pp/validation.json": "2934834590c709e987a155262360b2f7f403be3bdde5d815ac244824fb340f18",
+    "guards-v2/guard-state-v2/validation.json": "517fa026f453348158bd88aa72382747c11ea43ac9cc78ba3a112fd91998cda1",
+    "guards-v2/guard-state-swapped-v2/validation.json": "254fc528cd82590b36a3fa8d4150763242d200df93361b6443dc8dbae705617e",
+    "curl-struggle-v2/curl-scratch-proof-v2/validation.json": "5cc61ed2b329dedc365f54e8267ce6e44766d52f357d9fc6f441968bf2cf5cd6",
+    "curl-struggle-v2/struggle-proof-v2/validation.json": "58341991c4e7ad01d07cc33e5e4895ecf15427b288cf57bf9ddb0c1e4c17fe17",
+    "smoke-v2/smoke-validation-v2/validation.json": "52de958f4a599cb47ae265d34807bb3c0629abf57fd4829f73f66b602caf7a0c",
+    "smoke-v2/smoke-v2-replays/validation.json": "6e4c0aa378b29c0c7e963e0c2d05ebb088cc1b3471580e2acd9e38c38ac562e4"
+  },
+  "expected_battles": 112
+}

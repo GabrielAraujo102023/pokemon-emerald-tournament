@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "tournament_execution_allowed": false,
+  "canonical_backend_target": "arm-gba-emulation",
+  "milestones": {
+    "ot_rng_full_party_memory": "passed actual ARM Sawyer/Wallace construction and seed comparisons; pinned ABI-v2 evidence in ring-v2-cycle",
+    "script_address_execution": "passed baseline real battle scripts and engine terminal outcome; representative move-effect coverage incomplete",
+    "two_ai_seeded_battle": "passed source AI on both sides, repeated terminal baseline",
+    "event_ring": "passed >capacity deterministic trace and deliberate undrained error 2",
+    "fullrestore": "passed both-side HP and side-0 poison cure with inventory ownership; concurrent eligibility remains open"
+  },
+  "required_evidence": [
+    "ROM/ELF/compiler/emulator/adapter/checkpoint hashes",
+    "identical full party bytes for repeated seed",
+    "identical terminal outcome and complete event trace for repeated seed",
+    "different-seed RNG trace with construction/battle phase boundaries",
+    "independent trainer AI flags and item inventory on both sides"
+  ]
+}

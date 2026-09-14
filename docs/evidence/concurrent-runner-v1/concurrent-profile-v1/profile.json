@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "task": {
+    "ordinal": 0,
+    "trainer_a": 261,
+    "trainer_b": 263,
+    "repetition": 0,
+    "orientation": 0,
+    "seed": 1884176398,
+    "max_frames": 36000,
+    "match_id": "415edbbd01286c8b3f444746c9f6a716c8cc3a03059929f5d9508216b6172f43"
+  },
+  "runtime_seconds": 14.178245333001541,
+  "cpu_seconds": 14.410261999999998,
+  "functions": [
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 85,
+      "function": "run_battle",
+      "calls": 1,
+      "self_seconds": 0.031303332,
+      "cumulative_seconds": 14.154028
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 40,
+      "function": "command",
+      "calls": 79704,
+      "self_seconds": 0.065881226,
+      "cumulative_seconds": 12.533440532
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 26,
+      "function": "line",
+      "calls": 79705,
+      "self_seconds": 0.245692931,
+      "cumulative_seconds": 12.380899357
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 58,
+      "function": "frame",
+      "calls": 26507,
+      "self_seconds": 0.009120605,
+      "cumulative_seconds": 11.467703642
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 39,
+      "function": "elf_symbol",
+      "calls": 5,
+      "self_seconds": 0.667909301,
+      "cumulative_seconds": 1.2213076680000001
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 104,
+      "function": "state",
+      "calls": 26508,
+      "self_seconds": 0.020759947,
+      "cumulative_seconds": 0.849618525
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 44,
+      "function": "read",
+      "calls": 26684,
+      "self_seconds": 0.028376888000000003,
+      "cumulative_seconds": 0.7493174170000001
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 47,
+      "function": "<genexpr>",
+      "calls": 53368,
+      "self_seconds": 0.028035553,
+      "cumulative_seconds": 0.674395229
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 106,
+      "function": "drain",
+      "calls": 26507,
+      "self_seconds": 0.036662236,
+      "cumulative_seconds": 0.543573374
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 52,
+      "function": "write",
+      "calls": 26513,
+      "self_seconds": 0.019560559,
+      "cumulative_seconds": 0.47748332600000004
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 30,
+      "function": "control",
+      "calls": 26508,
+      "self_seconds": 0.012652639,
+      "cumulative_seconds": 0.08141933300000001
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 24,
+      "function": "words",
+      "calls": 26898,
+      "self_seconds": 0.050980947000000006,
+      "cumulative_seconds": 0.069373484
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 20,
+      "function": "ram_range",
+      "calls": 53198,
+      "self_seconds": 0.025362458,
+      "cumulative_seconds": 0.046945017000000006
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 74,
+      "function": "check_manifest",
+      "calls": 1,
+      "self_seconds": 8.291e-06,
+      "cumulative_seconds": 0.026517417
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 16,
+      "function": "digest",
+      "calls": 4,
+      "self_seconds": 2.3084e-05,
+      "cumulative_seconds": 0.026506625000000002
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 74,
+      "function": "ring_spans",
+      "calls": 26507,
+      "self_seconds": 0.012412362000000001,
+      "cumulative_seconds": 0.015466201
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_protocol.py",
+      "line": 21,
+      "function": "<genexpr>",
+      "calls": 53199,
+      "self_seconds": 0.008951187000000001,
+      "cumulative_seconds": 0.008951187000000001
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 16,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.00010466800000000001,
+      "cumulative_seconds": 0.008231542
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 62,
+      "function": "close",
+      "calls": 1,
+      "self_seconds": 9.334e-06,
+      "cumulative_seconds": 0.001473209
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 213,
+      "function": "<genexpr>",
+      "calls": 191,
+      "self_seconds": 5.1701000000000005e-05,
+      "cumulative_seconds": 0.0006006680000000001
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 120,
+      "function": "set_field",
+      "calls": 6,
+      "self_seconds": 5.499e-06,
+      "cumulative_seconds": 0.00013079200000000002
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 206,
+      "function": "<genexpr>",
+      "calls": 191,
+      "self_seconds": 2.8067e-05,
+      "cumulative_seconds": 3.625e-05
+    },
+    {
+      "file": "/Users/gaby/Desktop/the box/pokemon-tournament/src/emerald_tournament/emu_battle.py",
+      "line": 187,
+      "function": "<genexpr>",
+      "calls": 11,
+      "self_seconds": 1.46e-06,
+      "cumulative_seconds": 1.46e-06
+    }
+  ],
+  "note": "Cumulative time includes native emulator work while Python waits for replies; it is not pure IPC overhead."
+}

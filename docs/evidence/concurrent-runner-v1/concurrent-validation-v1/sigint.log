@@ -1,0 +1,38 @@
+Starting new tournament state. Completed: 0; remaining: 32; failed: 0; incomplete/unstarted: 32
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 1s | ETA: unknown | Failed: 0 | Workers: 2
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 2s | ETA: unknown | Failed: 0 | Workers: 2
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 3s | ETA: unknown | Failed: 0 | Workers: 2
+
+Interruption requested: stop scheduling; commit in-flight results, then close.
+Completed: 2 / 32 (6.25%) | Rate: 0.45 battles/s | Elapsed: 0d 0h 0m 4s | ETA: 0d 0h 1m 5s | Failed: 0 | Workers: 2
+Completed: 2 / 32 (6.25%) | Rate: 0.37 battles/s | Elapsed: 0d 0h 0m 5s | ETA: 0d 0h 1m 21s | Failed: 0 | Workers: 2
+Completed: 2 / 32 (6.25%) | Rate: 0.31 battles/s | Elapsed: 0d 0h 0m 6s | ETA: 0d 0h 1m 36s | Failed: 0 | Workers: 2
+Completed: 2 / 32 (6.25%) | Rate: 0.27 battles/s | Elapsed: 0d 0h 0m 7s | ETA: 0d 0h 1m 51s | Failed: 0 | Workers: 2
+Completed: 2 / 32 (6.25%) | Rate: 0.24 battles/s | Elapsed: 0d 0h 0m 8s | ETA: 0d 0h 2m 7s | Failed: 0 | Workers: 2
+Completed: 2 / 32 (6.25%) | Rate: 0.21 battles/s | Elapsed: 0d 0h 0m 9s | ETA: 0d 0h 2m 22s | Failed: 0 | Workers: 2
+Completed: 3 / 32 (9.38%) | Rate: 0.29 battles/s | Elapsed: 0d 0h 0m 10s | ETA: 0d 0h 1m 40s | Failed: 0 | Workers: 2
+{
+  "plan_id": "23ea8ce3c6240b2023890666346c799fa53b0386a269afdbda3121654b80915a",
+  "workers": 2,
+  "total": 32,
+  "completed": 3,
+  "remaining": 29,
+  "failed": 0,
+  "incomplete": 29,
+  "failed_attempts": 0,
+  "completed_this_session": 3,
+  "failed_attempts_this_session": 0,
+  "elapsed_seconds": 10.373095582999667,
+  "battles_per_second": 0.2892097133392525,
+  "mean_battle_runtime_seconds": 4.505725750001147,
+  "approx_peak_pool_bytes": 233635840,
+  "measured_worker_and_child_cpu_seconds": 13.533431999999998,
+  "archive_bytes_written": 104868,
+  "worker_pids": [
+    50302,
+    50303
+  ],
+  "interrupted": true,
+  "fatal_error": null,
+  "complete": false
+}

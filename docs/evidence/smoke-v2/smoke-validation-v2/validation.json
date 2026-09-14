@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "run_id": "deeaf4bb7ad40d9f5c8a9588a2471ef79613685fdbc7d1b288be8e74a146ef94",
+  "counts": {
+    "a_win": 11,
+    "b_win": 16,
+    "draw": 0,
+    "timeout": 5
+  },
+  "resume": {
+    "run_id": "deeaf4bb7ad40d9f5c8a9588a2471ef79613685fdbc7d1b288be8e74a146ef94",
+    "completed": 32,
+    "expected": 32,
+    "newly_completed": 0,
+    "complete": true
+  },
+  "failures": 0,
+  "immutable_records_unchanged": true,
+  "no_new_battle_directories": true,
+  "ranking_order_independent_of_query_order": true,
+  "overflow_evidence": "docs/evidence/ring-v2-cycle/ring-v2-long/validation.json"
+}

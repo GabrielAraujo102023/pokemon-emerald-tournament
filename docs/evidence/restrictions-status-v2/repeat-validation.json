@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "switch-restrictions-v2/trapped-side-0/events.bin": true,
+    "switch-restrictions-v2/trapped-side-0/initial_parties.bin": true,
+    "switch-restrictions-v2/trapped-side-0/stopped_parties.bin": true,
+    "switch-restrictions-v2/trapped-side-0/battle_result.json": true,
+    "switch-restrictions-v2/trapped-side-1/events.bin": true,
+    "switch-restrictions-v2/trapped-side-1/initial_parties.bin": true,
+    "switch-restrictions-v2/trapped-side-1/stopped_parties.bin": true,
+    "switch-restrictions-v2/trapped-side-1/battle_result.json": true,
+    "status-magnemite-gloom-v2/pair-a/events.bin": true,
+    "status-magnemite-gloom-v2/pair-a/initial_parties.bin": true,
+    "status-magnemite-gloom-v2/pair-a/stopped_parties.bin": true,
+    "status-magnemite-gloom-v2/pair-a/battle_result.json": true,
+    "status-magnemite-gloom-v2/pair-b/events.bin": true,
+    "status-magnemite-gloom-v2/pair-b/initial_parties.bin": true,
+    "status-magnemite-gloom-v2/pair-b/stopped_parties.bin": true,
+    "status-magnemite-gloom-v2/pair-b/battle_result.json": true,
+    "sleep-skitty-magnemite-v2/pair-a/events.bin": true,
+    "sleep-skitty-magnemite-v2/pair-a/initial_parties.bin": true,
+    "sleep-skitty-magnemite-v2/pair-a/stopped_parties.bin": true,
+    "sleep-skitty-magnemite-v2/pair-a/battle_result.json": true,
+    "sleep-skitty-magnemite-v2/pair-b/events.bin": true,
+    "sleep-skitty-magnemite-v2/pair-b/initial_parties.bin": true,
+    "sleep-skitty-magnemite-v2/pair-b/stopped_parties.bin": true,
+    "sleep-skitty-magnemite-v2/pair-b/battle_result.json": true
+  }
+}

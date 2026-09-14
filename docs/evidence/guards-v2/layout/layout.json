@@ -1,0 +1,13 @@
+{
+  "battle_mon_size": 88,
+  "battle_hp": 40,
+  "battle_status1": 76,
+  "history_size": 84,
+  "history_items": 72,
+  "history_items_no": 80,
+  "party_mon_size": 100,
+  "party_hp": 86,
+  "save_flags": 4720,
+  "badge_first": 2151,
+  "badge_last": 2158
+}

@@ -1,0 +1,29 @@
+{
+  "trainer_a": 100,
+  "trainer_b": 210,
+  "seed": 12345,
+  "outcome": "timeout",
+  "terminal_from_engine": false,
+  "frames": 12000,
+  "turns": 10,
+  "rng_start": 12345,
+  "rng_after_party_init": 2196700069,
+  "rng_final": null,
+  "initial_party_sha256": "055d25d7ba6b7d94d4aae65a727c8cc7659200df05d9d35807efeacfd7f548d8",
+  "trace_sha256": "24dd3f31a83d31a3cee70f29ca898a8394d57693d08f3e0b5b9d6d27fc9c38dc",
+  "max_frames": 12000,
+  "provenance": {
+    "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+    "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+    "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+    "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+    "rules_version": 1,
+    "abi_version": 1,
+    "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+    "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+    "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "checkpoint_entry": "TournamentReady after normal new-game initialization",
+    "validation_evidence": "build/reports/constructor-validation.json; construction only"
+  }
+}

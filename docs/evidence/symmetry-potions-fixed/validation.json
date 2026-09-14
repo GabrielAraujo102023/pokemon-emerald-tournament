@@ -1,0 +1,344 @@
+{
+  "scope": "natural-team single-battle fixtures",
+  "fixtures": [
+    {
+      "name": "items-a",
+      "trainer_a": 265,
+      "trainer_b": 266,
+      "seed": 12346,
+      "result": {
+        "trainer_a": 265,
+        "trainer_b": 266,
+        "seed": 12346,
+        "outcome": "b_win",
+        "terminal_from_engine": true,
+        "frames": 9485,
+        "turns": 7,
+        "rng_start": 12346,
+        "rng_after_party_init": 473898269,
+        "rng_final": 3338627029,
+        "initial_party_sha256": "98ca3e1a4dc99634cc96ed061d6fc00ab68486242b10e0168f70957c02166e43",
+        "trace_sha256": "69ed219ebeea44adef8506738f68121739d2d023bdb826f06985ac7c3a1ddf35",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true,
+        "potions_executed": true,
+        "correct_hp_delta": true
+      },
+      "observed_items": [
+        {
+          "battler": 0,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 4258093208,
+          "sequence": 37,
+          "turn": 1,
+          "value0": 13,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 3763700238,
+          "sequence": 48,
+          "turn": 3,
+          "value0": 13,
+          "value1": 0
+        }
+      ],
+      "observed_self_targets": [
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 978375781,
+          "sequence": 55,
+          "turn": 4,
+          "value0": 106,
+          "value1": 0
+        }
+      ],
+      "potion_heals": [
+        {
+          "side": 0,
+          "before": {
+            "attacker": 0,
+            "frame": 2301,
+            "hp": [
+              4,
+              45
+            ],
+            "item": 13,
+            "max_hp": [
+              33,
+              50
+            ],
+            "script": 136266799,
+            "slots": [
+              0,
+              0
+            ]
+          },
+          "after": {
+            "attacker": 0,
+            "frame": 2333,
+            "hp": [
+              24,
+              45
+            ],
+            "item": 13,
+            "max_hp": [
+              33,
+              50
+            ],
+            "script": 136266801,
+            "slots": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "side": 0,
+          "before": {
+            "attacker": 0,
+            "frame": 4777,
+            "hp": [
+              6,
+              40
+            ],
+            "item": 13,
+            "max_hp": [
+              33,
+              50
+            ],
+            "script": 136266799,
+            "slots": [
+              1,
+              0
+            ]
+          },
+          "after": {
+            "attacker": 0,
+            "frame": 4809,
+            "hp": [
+              26,
+              40
+            ],
+            "item": 13,
+            "max_hp": [
+              33,
+              50
+            ],
+            "script": 136266801,
+            "slots": [
+              1,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "items-b",
+      "trainer_a": 266,
+      "trainer_b": 265,
+      "seed": 12346,
+      "result": {
+        "trainer_a": 266,
+        "trainer_b": 265,
+        "seed": 12346,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 9507,
+        "turns": 7,
+        "rng_start": 12346,
+        "rng_after_party_init": 473898269,
+        "rng_final": 4095958715,
+        "initial_party_sha256": "b3e63b0012c98debc6a099dcd22e3f8050343eff5b97e900bc549ef6288353e8",
+        "trace_sha256": "f9e6a6828e1d623fc556b8b5f6f97dc1902507af81591bb470ca579813238f05",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true,
+        "potions_executed": true,
+        "correct_hp_delta": true
+      },
+      "observed_items": [
+        {
+          "battler": 1,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2912030153,
+          "sequence": 60,
+          "turn": 5,
+          "value0": 13,
+          "value1": 0
+        },
+        {
+          "battler": 1,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2727115857,
+          "sequence": 64,
+          "turn": 6,
+          "value0": 13,
+          "value1": 0
+        }
+      ],
+      "observed_self_targets": [
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3755477571,
+          "sequence": 32,
+          "turn": 0,
+          "value0": 339,
+          "value1": 0
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2352878274,
+          "sequence": 56,
+          "turn": 4,
+          "value0": 106,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 1707244963,
+          "sequence": 69,
+          "turn": 7,
+          "value0": 106,
+          "value1": 1
+        }
+      ],
+      "potion_heals": [
+        {
+          "side": 1,
+          "before": {
+            "attacker": 1,
+            "frame": 6783,
+            "hp": [
+              43,
+              12
+            ],
+            "item": 13,
+            "max_hp": [
+              50,
+              37
+            ],
+            "script": 136266799,
+            "slots": [
+              0,
+              2
+            ]
+          },
+          "after": {
+            "attacker": 1,
+            "frame": 6811,
+            "hp": [
+              43,
+              32
+            ],
+            "item": 13,
+            "max_hp": [
+              50,
+              37
+            ],
+            "script": 136266801,
+            "slots": [
+              0,
+              2
+            ]
+          }
+        },
+        {
+          "side": 1,
+          "before": {
+            "attacker": 1,
+            "frame": 7656,
+            "hp": [
+              43,
+              14
+            ],
+            "item": 13,
+            "max_hp": [
+              50,
+              37
+            ],
+            "script": 136266799,
+            "slots": [
+              0,
+              2
+            ]
+          },
+          "after": {
+            "attacker": 1,
+            "frame": 7684,
+            "hp": [
+              43,
+              34
+            ],
+            "item": 13,
+            "max_hp": [
+              50,
+              37
+            ],
+            "script": 136266801,
+            "slots": [
+              0,
+              2
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,1252 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "result": {
+        "rng_at_stop": 1185947546,
+        "stopped_party_sha256": "4b16b269886baabd3c4e55a8f11d2ebc035f7adc5c103f5cbb6f48cc173da0d5",
+        "trace_event_count": 119,
+        "trainer_a": 114,
+        "trainer_b": 136,
+        "seed": 10,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 16722,
+        "turns": 21,
+        "rng_start": 10,
+        "rng_after_party_init": 694687144,
+        "rng_final": 1185947546,
+        "initial_party_sha256": "445c83096667e93e61618d6526044a80f2a6c2c687010d9cac6fd138a8edb9dc",
+        "trace_sha256": "92ea3e9d2115e904981a61c4f856fbb70508dc3fe175ee1aaf89b425cda3f4eb",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "eligibility_before": {
+        "abilities": [
+          53,
+          53
+        ],
+        "attacker": 0,
+        "crit_multiplier": 1,
+        "current_move": 0,
+        "event_count": 61,
+        "frame": 7630,
+        "held_items": [
+          110,
+          110
+        ],
+        "hp": [
+          3,
+          1
+        ],
+        "inventory": [
+          [
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            0,
+            0
+          ]
+        ],
+        "item": 110,
+        "last_ability": 53,
+        "max_hp": [
+          22,
+          22
+        ],
+        "move_flags": 0,
+        "pp": [
+          [
+            31,
+            37,
+            27,
+            0
+          ],
+          [
+            30,
+            37,
+            28,
+            0
+          ]
+        ],
+        "rng": 3161364131,
+        "script": 136254387,
+        "slots": [
+          0,
+          0
+        ],
+        "species": [
+          288,
+          288
+        ],
+        "stages": [
+          [
+            6,
+            3,
+            4,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            3,
+            3,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        "status1": [
+          0,
+          0
+        ],
+        "status2": [
+          0,
+          0
+        ],
+        "weather": 0
+      },
+      "selections": [
+        {
+          "battler": 0,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2744499127,
+          "sequence": 61,
+          "turn": 10,
+          "value0": 19,
+          "value1": 0
+        },
+        {
+          "battler": 1,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2744499127,
+          "sequence": 62,
+          "turn": 10,
+          "value0": 19,
+          "value1": 0
+        }
+      ],
+      "item_proof": {
+        "result": {
+          "rng_at_stop": 1185947546,
+          "stopped_party_sha256": "4b16b269886baabd3c4e55a8f11d2ebc035f7adc5c103f5cbb6f48cc173da0d5",
+          "trace_event_count": 119,
+          "trainer_a": 114,
+          "trainer_b": 136,
+          "seed": 10,
+          "outcome": "a_win",
+          "terminal_from_engine": true,
+          "frames": 16722,
+          "turns": 21,
+          "rng_start": 10,
+          "rng_after_party_init": 694687144,
+          "rng_final": 1185947546,
+          "initial_party_sha256": "445c83096667e93e61618d6526044a80f2a6c2c687010d9cac6fd138a8edb9dc",
+          "trace_sha256": "92ea3e9d2115e904981a61c4f856fbb70508dc3fe175ee1aaf89b425cda3f4eb",
+          "max_frames": 36000,
+          "provenance": {
+            "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+            "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+            "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+            "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+            "rules_version": 1,
+            "abi_version": 2,
+            "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+            "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+            "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+            "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+            "checkpoint_entry": "TournamentReady after normal new-game initialization",
+            "validation_evidence": "build/reports/constructor-validation.json; construction only"
+          }
+        },
+        "checks": {
+          "initial_inventories_match": true,
+          "selected_from_owner_inventory": true,
+          "isolated_inventory_consumption": true,
+          "every_selection_consumed_once": true,
+          "fullrestore_healing_correct": true,
+          "both_sides_healed": true
+        },
+        "inventory_mutations": [
+          {
+            "frame": 7632,
+            "choices": [
+              {
+                "battler": 0,
+                "event": "trainer_item_selected",
+                "kind": 6,
+                "phase": 5,
+                "rng": 2744499127,
+                "sequence": 61,
+                "turn": 10,
+                "value0": 19,
+                "value1": 0
+              },
+              {
+                "battler": 1,
+                "event": "trainer_item_selected",
+                "kind": 6,
+                "phase": 5,
+                "rng": 2744499127,
+                "sequence": 62,
+                "turn": 10,
+                "value0": 19,
+                "value1": 0
+              }
+            ],
+            "valid": true
+          }
+        ],
+        "heals": [
+          {
+            "side": 0,
+            "before": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 0,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 7898,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                3,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 2666091995,
+              "script": 136266847,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "after": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 0,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 7942,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 3485302611,
+              "script": 136266849,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "valid": true
+          },
+          {
+            "side": 1,
+            "before": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 1,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 8437,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 910659297,
+              "script": 136266847,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "after": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 1,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 8485,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                22
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 2167609025,
+              "script": 136266849,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "valid": true
+          }
+        ],
+        "cures": [],
+        "status_cure_observed": false
+      }
+    },
+    {
+      "result": {
+        "rng_at_stop": 1185947546,
+        "stopped_party_sha256": "4b16b269886baabd3c4e55a8f11d2ebc035f7adc5c103f5cbb6f48cc173da0d5",
+        "trace_event_count": 119,
+        "trainer_a": 114,
+        "trainer_b": 136,
+        "seed": 10,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 16722,
+        "turns": 21,
+        "rng_start": 10,
+        "rng_after_party_init": 694687144,
+        "rng_final": 1185947546,
+        "initial_party_sha256": "445c83096667e93e61618d6526044a80f2a6c2c687010d9cac6fd138a8edb9dc",
+        "trace_sha256": "92ea3e9d2115e904981a61c4f856fbb70508dc3fe175ee1aaf89b425cda3f4eb",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "eligibility_before": {
+        "abilities": [
+          53,
+          53
+        ],
+        "attacker": 0,
+        "crit_multiplier": 1,
+        "current_move": 0,
+        "event_count": 61,
+        "frame": 7630,
+        "held_items": [
+          110,
+          110
+        ],
+        "hp": [
+          3,
+          1
+        ],
+        "inventory": [
+          [
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            19,
+            0,
+            0,
+            0
+          ]
+        ],
+        "item": 110,
+        "last_ability": 53,
+        "max_hp": [
+          22,
+          22
+        ],
+        "move_flags": 0,
+        "pp": [
+          [
+            31,
+            37,
+            27,
+            0
+          ],
+          [
+            30,
+            37,
+            28,
+            0
+          ]
+        ],
+        "rng": 3161364131,
+        "script": 136254387,
+        "slots": [
+          0,
+          0
+        ],
+        "species": [
+          288,
+          288
+        ],
+        "stages": [
+          [
+            6,
+            3,
+            4,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            3,
+            3,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        "status1": [
+          0,
+          0
+        ],
+        "status2": [
+          0,
+          0
+        ],
+        "weather": 0
+      },
+      "selections": [
+        {
+          "battler": 0,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2744499127,
+          "sequence": 61,
+          "turn": 10,
+          "value0": 19,
+          "value1": 0
+        },
+        {
+          "battler": 1,
+          "event": "trainer_item_selected",
+          "kind": 6,
+          "phase": 5,
+          "rng": 2744499127,
+          "sequence": 62,
+          "turn": 10,
+          "value0": 19,
+          "value1": 0
+        }
+      ],
+      "item_proof": {
+        "result": {
+          "rng_at_stop": 1185947546,
+          "stopped_party_sha256": "4b16b269886baabd3c4e55a8f11d2ebc035f7adc5c103f5cbb6f48cc173da0d5",
+          "trace_event_count": 119,
+          "trainer_a": 114,
+          "trainer_b": 136,
+          "seed": 10,
+          "outcome": "a_win",
+          "terminal_from_engine": true,
+          "frames": 16722,
+          "turns": 21,
+          "rng_start": 10,
+          "rng_after_party_init": 694687144,
+          "rng_final": 1185947546,
+          "initial_party_sha256": "445c83096667e93e61618d6526044a80f2a6c2c687010d9cac6fd138a8edb9dc",
+          "trace_sha256": "92ea3e9d2115e904981a61c4f856fbb70508dc3fe175ee1aaf89b425cda3f4eb",
+          "max_frames": 36000,
+          "provenance": {
+            "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+            "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+            "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+            "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+            "rules_version": 1,
+            "abi_version": 2,
+            "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+            "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+            "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+            "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+            "checkpoint_entry": "TournamentReady after normal new-game initialization",
+            "validation_evidence": "build/reports/constructor-validation.json; construction only"
+          }
+        },
+        "checks": {
+          "initial_inventories_match": true,
+          "selected_from_owner_inventory": true,
+          "isolated_inventory_consumption": true,
+          "every_selection_consumed_once": true,
+          "fullrestore_healing_correct": true,
+          "both_sides_healed": true
+        },
+        "inventory_mutations": [
+          {
+            "frame": 7632,
+            "choices": [
+              {
+                "battler": 0,
+                "event": "trainer_item_selected",
+                "kind": 6,
+                "phase": 5,
+                "rng": 2744499127,
+                "sequence": 61,
+                "turn": 10,
+                "value0": 19,
+                "value1": 0
+              },
+              {
+                "battler": 1,
+                "event": "trainer_item_selected",
+                "kind": 6,
+                "phase": 5,
+                "rng": 2744499127,
+                "sequence": 62,
+                "turn": 10,
+                "value0": 19,
+                "value1": 0
+              }
+            ],
+            "valid": true
+          }
+        ],
+        "heals": [
+          {
+            "side": 0,
+            "before": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 0,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 7898,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                3,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 2666091995,
+              "script": 136266847,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "after": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 0,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 7942,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 3485302611,
+              "script": 136266849,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "valid": true
+          },
+          {
+            "side": 1,
+            "before": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 1,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 8437,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                1
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 910659297,
+              "script": 136266847,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "after": {
+              "abilities": [
+                53,
+                53
+              ],
+              "attacker": 1,
+              "crit_multiplier": 1,
+              "current_move": 0,
+              "event_count": 63,
+              "frame": 8485,
+              "held_items": [
+                110,
+                110
+              ],
+              "hp": [
+                22,
+                22
+              ],
+              "inventory": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "item": 19,
+              "last_ability": 53,
+              "max_hp": [
+                22,
+                22
+              ],
+              "move_flags": 0,
+              "pp": [
+                [
+                  31,
+                  37,
+                  27,
+                  0
+                ],
+                [
+                  30,
+                  37,
+                  28,
+                  0
+                ]
+              ],
+              "rng": 2167609025,
+              "script": 136266849,
+              "slots": [
+                0,
+                0
+              ],
+              "species": [
+                288,
+                288
+              ],
+              "stages": [
+                [
+                  6,
+                  3,
+                  4,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  3,
+                  3,
+                  6,
+                  6,
+                  6,
+                  6,
+                  6
+                ]
+              ],
+              "status1": [
+                0,
+                0
+              ],
+              "status2": [
+                0,
+                0
+              ],
+              "weather": 0
+            },
+            "valid": true
+          }
+        ],
+        "cures": [],
+        "status_cure_observed": false
+      }
+    }
+  ],
+  "checks": {
+    "compact_vs_observed_events.bin": true,
+    "observed_repeat_events.bin": true,
+    "compact_vs_observed_initial_parties.bin": true,
+    "observed_repeat_initial_parties.bin": true,
+    "compact_vs_observed_final_parties.bin": true,
+    "observed_repeat_final_parties.bin": true,
+    "compact_vs_observed_stopped_parties.bin": true,
+    "observed_repeat_stopped_parties.bin": true,
+    "compact_vs_observed_battle_result.json": true,
+    "observed_repeat_battle_result.json": true,
+    "observation_repeat": true
+  }
+}

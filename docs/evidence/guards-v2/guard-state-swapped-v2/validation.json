@@ -1,0 +1,530 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "name": "normal",
+      "result": {
+        "rng_at_stop": 67051895,
+        "stopped_party_sha256": "423fc6eba2bad2e61e31b481d6bcc2ce51fac9a4c42d83099ee6e55363b038b2",
+        "trace_event_count": 63,
+        "trainer_a": 335,
+        "trainer_b": 1,
+        "seed": 12345,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 1916,
+        "turns": 0,
+        "rng_start": 12345,
+        "rng_after_party_init": 1510019643,
+        "rng_final": 67051895,
+        "initial_party_sha256": "739ee637aa547ae4511c89df7a74931f66302c84c3d1365326930f0bb2aa142f",
+        "trace_sha256": "8fa956cce066e2728b93c8b2847e81158b0e10f6d7d7b326a1204a3f267977d7",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "growth": {
+        "initial": [
+          {
+            "species": 314,
+            "experience": 222231,
+            "friendship": 70,
+            "personality": 702344,
+            "ot_id": 3165049820,
+            "level": 57,
+            "hp": 278
+          },
+          {
+            "species": 73,
+            "experience": 207968,
+            "friendship": 70,
+            "personality": 1556872,
+            "ot_id": 2117561779,
+            "level": 55,
+            "hp": 170
+          },
+          {
+            "species": 297,
+            "experience": 169159,
+            "friendship": 70,
+            "personality": 2309000,
+            "ot_id": 3319719172,
+            "level": 56,
+            "hp": 172
+          },
+          {
+            "species": 324,
+            "experience": 175616,
+            "friendship": 70,
+            "personality": 3060872,
+            "ot_id": 3867339935,
+            "level": 56,
+            "hp": 206
+          },
+          {
+            "species": 130,
+            "experience": 219520,
+            "friendship": 70,
+            "personality": 3812744,
+            "ot_id": 3318196558,
+            "level": 56,
+            "hp": 189
+          },
+          {
+            "species": 329,
+            "experience": 179503,
+            "friendship": 70,
+            "personality": 4514696,
+            "ot_id": 1384385846,
+            "level": 58,
+            "hp": 196
+          },
+          {
+            "species": 74,
+            "experience": 6458,
+            "friendship": 70,
+            "personality": 658056,
+            "ot_id": 2551841810,
+            "level": 21,
+            "hp": 47
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          }
+        ],
+        "final": [
+          {
+            "species": 314,
+            "experience": 222231,
+            "friendship": 70,
+            "personality": 702344,
+            "ot_id": 3165049820,
+            "level": 57,
+            "hp": 278
+          },
+          {
+            "species": 73,
+            "experience": 207968,
+            "friendship": 70,
+            "personality": 1556872,
+            "ot_id": 2117561779,
+            "level": 55,
+            "hp": 170
+          },
+          {
+            "species": 297,
+            "experience": 169159,
+            "friendship": 70,
+            "personality": 2309000,
+            "ot_id": 3319719172,
+            "level": 56,
+            "hp": 172
+          },
+          {
+            "species": 324,
+            "experience": 175616,
+            "friendship": 70,
+            "personality": 3060872,
+            "ot_id": 3867339935,
+            "level": 56,
+            "hp": 206
+          },
+          {
+            "species": 130,
+            "experience": 219520,
+            "friendship": 70,
+            "personality": 3812744,
+            "ot_id": 3318196558,
+            "level": 56,
+            "hp": 189
+          },
+          {
+            "species": 329,
+            "experience": 179503,
+            "friendship": 70,
+            "personality": 4514696,
+            "ot_id": 1384385846,
+            "level": 58,
+            "hp": 196
+          },
+          {
+            "species": 74,
+            "experience": 6458,
+            "friendship": 70,
+            "personality": 658056,
+            "ot_id": 2551841810,
+            "level": 21,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          }
+        ],
+        "experience_friendship_level_unchanged": true
+      }
+    },
+    {
+      "name": "badges",
+      "result": {
+        "rng_at_stop": 67051895,
+        "stopped_party_sha256": "423fc6eba2bad2e61e31b481d6bcc2ce51fac9a4c42d83099ee6e55363b038b2",
+        "trace_event_count": 63,
+        "trainer_a": 335,
+        "trainer_b": 1,
+        "seed": 12345,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 1916,
+        "turns": 0,
+        "rng_start": 12345,
+        "rng_after_party_init": 1510019643,
+        "rng_final": 67051895,
+        "initial_party_sha256": "739ee637aa547ae4511c89df7a74931f66302c84c3d1365326930f0bb2aa142f",
+        "trace_sha256": "8fa956cce066e2728b93c8b2847e81158b0e10f6d7d7b326a1204a3f267977d7",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        },
+        "validation_overrides": {
+          "badge_flags": "all"
+        }
+      },
+      "growth": {
+        "initial": [
+          {
+            "species": 314,
+            "experience": 222231,
+            "friendship": 70,
+            "personality": 702344,
+            "ot_id": 3165049820,
+            "level": 57,
+            "hp": 278
+          },
+          {
+            "species": 73,
+            "experience": 207968,
+            "friendship": 70,
+            "personality": 1556872,
+            "ot_id": 2117561779,
+            "level": 55,
+            "hp": 170
+          },
+          {
+            "species": 297,
+            "experience": 169159,
+            "friendship": 70,
+            "personality": 2309000,
+            "ot_id": 3319719172,
+            "level": 56,
+            "hp": 172
+          },
+          {
+            "species": 324,
+            "experience": 175616,
+            "friendship": 70,
+            "personality": 3060872,
+            "ot_id": 3867339935,
+            "level": 56,
+            "hp": 206
+          },
+          {
+            "species": 130,
+            "experience": 219520,
+            "friendship": 70,
+            "personality": 3812744,
+            "ot_id": 3318196558,
+            "level": 56,
+            "hp": 189
+          },
+          {
+            "species": 329,
+            "experience": 179503,
+            "friendship": 70,
+            "personality": 4514696,
+            "ot_id": 1384385846,
+            "level": 58,
+            "hp": 196
+          },
+          {
+            "species": 74,
+            "experience": 6458,
+            "friendship": 70,
+            "personality": 658056,
+            "ot_id": 2551841810,
+            "level": 21,
+            "hp": 47
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          }
+        ],
+        "final": [
+          {
+            "species": 314,
+            "experience": 222231,
+            "friendship": 70,
+            "personality": 702344,
+            "ot_id": 3165049820,
+            "level": 57,
+            "hp": 278
+          },
+          {
+            "species": 73,
+            "experience": 207968,
+            "friendship": 70,
+            "personality": 1556872,
+            "ot_id": 2117561779,
+            "level": 55,
+            "hp": 170
+          },
+          {
+            "species": 297,
+            "experience": 169159,
+            "friendship": 70,
+            "personality": 2309000,
+            "ot_id": 3319719172,
+            "level": 56,
+            "hp": 172
+          },
+          {
+            "species": 324,
+            "experience": 175616,
+            "friendship": 70,
+            "personality": 3060872,
+            "ot_id": 3867339935,
+            "level": 56,
+            "hp": 206
+          },
+          {
+            "species": 130,
+            "experience": 219520,
+            "friendship": 70,
+            "personality": 3812744,
+            "ot_id": 3318196558,
+            "level": 56,
+            "hp": 189
+          },
+          {
+            "species": 329,
+            "experience": 179503,
+            "friendship": 70,
+            "personality": 4514696,
+            "ot_id": 1384385846,
+            "level": 58,
+            "hp": 196
+          },
+          {
+            "species": 74,
+            "experience": 6458,
+            "friendship": 70,
+            "personality": 658056,
+            "ot_id": 2551841810,
+            "level": 21,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          },
+          {
+            "species": 0,
+            "experience": 0,
+            "friendship": 0,
+            "personality": 0,
+            "ot_id": 0,
+            "level": 0,
+            "hp": 0
+          }
+        ],
+        "experience_friendship_level_unchanged": true
+      }
+    }
+  ],
+  "badge_equivalence": {
+    "events.bin": true,
+    "initial_parties.bin": true,
+    "final_parties.bin": true,
+    "engine_observations.jsonl": true
+  }
+}

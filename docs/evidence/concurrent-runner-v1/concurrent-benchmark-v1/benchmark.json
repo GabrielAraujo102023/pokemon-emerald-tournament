@@ -1,0 +1,275 @@
+{
+  "passed": true,
+  "hardware": {
+    "logical_cpus": 11,
+    "memory_budget_bytes": null,
+    "auto_workers": 5,
+    "memory_note": "macOS: 25% of total RAM; Linux/Windows: available RAM; estimate only"
+  },
+  "fixture_plan": {
+    "schema_version": 1,
+    "mode": "benchmark",
+    "scope": "fixture",
+    "trainer_ids": [
+      261,
+      263,
+      264,
+      335
+    ],
+    "pairing": "all_pairs",
+    "master_seed": 20260913,
+    "seed_version": "sha256-canonical-pair-repetition-orientation-v1",
+    "frame_budgets": [
+      36000
+    ],
+    "total_battles": 12,
+    "unsupported_ids": [
+      261,
+      263,
+      264,
+      335
+    ],
+    "admission_policy": {
+      "version": "covered-normal-singles-v2",
+      "description": "First conservative trainer-entry league; every excluded entry remains in the manifest. Not an all-Emerald coverage claim.",
+      "categories": [
+        "standard_single",
+        "alternate_story_version"
+      ],
+      "encounter_commands": [
+        "trainerbattle_single",
+        "trainerbattle_no_intro"
+      ],
+      "max_party_size": 1,
+      "ai_flags": [
+        1,
+        7,
+        11
+      ],
+      "moves": [
+        "MOVE_NONE",
+        "MOVE_TACKLE",
+        "MOVE_SCRATCH",
+        "MOVE_GROWL",
+        "MOVE_TAIL_WHIP",
+        "MOVE_DEFENSE_CURL"
+      ],
+      "runtime_moves": [
+        10,
+        33,
+        39,
+        45,
+        111,
+        165
+      ],
+      "abilities": {
+        "47": "Thick Fat cannot activate: the entire league has no Fire/Ice attack; pokemon.c type guard",
+        "53": "Pickup has no in-battle effect in this source; result capture precedes postbattle pickup",
+        "66": "Blaze cannot activate: this league has no Fire attack; pokemon.c type guard",
+        "67": "Torrent cannot activate: this league has no Water attack; pokemon.c type guard",
+        "69": "Rock Head has no non-Struggle recoil move in scope; Struggle bypasses it in battle_scripts_1.s"
+      },
+      "held_items": [
+        "ITEM_NONE",
+        "ITEM_NUGGET"
+      ],
+      "trainer_items": [
+        "ITEM_NONE",
+        "ITEM_FULL_RESTORE"
+      ],
+      "item_note": "No status-inflicting move or ability in this league; Full Restore healing only. Nugget has no holdEffect.",
+      "implicit_move_policy": "Struggle admitted after natural PP exhaustion, damage and recoil proof: docs/evidence/curl-struggle-v2/struggle-proof-v2/validation.json",
+      "exclusions": "All unlisted moves, abilities, held/trainer items, multi-member parties, categories and encounter commands rejected; no team substitutions."
+    },
+    "trainer_data_sha256": "9d12193070ad7f89827f98ce8cebbd3bc5783fe05667582c4699e47a4b867f2c",
+    "generation_sha256": "bf44a890305e8809a1bb5e93c937d82cf8968db926f8655a1b79d0fd8ac4be5d",
+    "provenance": {
+      "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+      "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+      "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+      "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+      "rules_version": 1,
+      "abi_version": 2,
+      "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+      "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+      "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "checkpoint_entry": "TournamentReady after normal new-game initialization",
+      "validation_evidence": "build/reports/constructor-validation.json; construction only"
+    },
+    "runtime_hashes": {
+      "mgba": "fa62eeec5ee04136e41126e0d5b96dfcecf53e45bcf314bda463cfc60e408795",
+      "libpng": "ed50e7c1582d94c40489a37097cbb2fcea81e5450173ee9bbe2871cbfdea27eb"
+    },
+    "execution_hashes": {
+      "emu_battle.py": "d96055ce9145ad4293164ba152d3c30abd5f729cb40ee95d6865edbffea688b9",
+      "emu_protocol.py": "b09483bfd13a2d7c1a36534d160c7477e3f66cd07cf65be037b592596650189c",
+      "admission.py": "d5889cc353cb8ecefc3e37a6bfa2bcc9108f9a79f3fc840cd4985c5fb1e895cb",
+      "teams.py": "237ed608562954cfdba37f4f64e8b64fef7d2a7f899944b99b3c1b587b92ac84",
+      "parallel_worker.py": "9eac30d11a55e8b4186d31529f80568a29ba41ebce09c77fa650516c03ed6505",
+      "parallel_tasks.py": "554525f5b3a81efa8e7ea903e25a75833bfda454764b6e925047ee07d564a1f6",
+      "parallel_store.py": "df11b79fb39b9c18a044228bafc2bbf93595a3690f41b1fd579da0e4306b7320",
+      "parallel_plan.py": "7c2446e1c160ee06f867b8408c57b7819f1ccc1034e547947f24c15ef6152078",
+      "parallel_runner.py": "869d6435eaaf54b28ccf0f785f41ccec81e4b2a837e0021378051096beb868f7"
+    },
+    "archive_format": "zip-deflate-v1",
+    "classification": "unranked diagnostic fixtures",
+    "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6"
+  },
+  "samples": [
+    {
+      "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+      "workers": 1,
+      "total": 12,
+      "completed": 12,
+      "remaining": 0,
+      "failed": 0,
+      "incomplete": 0,
+      "failed_attempts": 0,
+      "completed_this_session": 12,
+      "failed_attempts_this_session": 0,
+      "elapsed_seconds": 131.85671487500076,
+      "battles_per_second": 0.0910078793588625,
+      "mean_battle_runtime_seconds": 10.97578437491696,
+      "approx_peak_pool_bytes": 150339584,
+      "measured_worker_and_child_cpu_seconds": 131.76410600000003,
+      "archive_bytes_written": 1004183,
+      "worker_pids": [
+        73921
+      ],
+      "interrupted": false,
+      "fatal_error": null,
+      "complete": true,
+      "logical_results_equal": true,
+      "speedup": 1.0,
+      "projected_1205904_days": 153.36278925021503
+    },
+    {
+      "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+      "workers": 2,
+      "total": 12,
+      "completed": 12,
+      "remaining": 0,
+      "failed": 0,
+      "incomplete": 0,
+      "failed_attempts": 0,
+      "completed_this_session": 12,
+      "failed_attempts_this_session": 0,
+      "elapsed_seconds": 73.67246579100174,
+      "battles_per_second": 0.16288310525729227,
+      "mean_battle_runtime_seconds": 11.498848059082471,
+      "approx_peak_pool_bytes": 274857984,
+      "measured_worker_and_child_cpu_seconds": 138.02324199999998,
+      "archive_bytes_written": 1004183,
+      "worker_pids": [
+        75317,
+        75318
+      ],
+      "interrupted": false,
+      "fatal_error": null,
+      "complete": true,
+      "logical_results_equal": true,
+      "speedup": 1.7897692639887939,
+      "projected_1205904_days": 85.68858139200633
+    },
+    {
+      "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+      "workers": 4,
+      "total": 12,
+      "completed": 12,
+      "remaining": 0,
+      "failed": 0,
+      "incomplete": 0,
+      "failed_attempts": 0,
+      "completed_this_session": 12,
+      "failed_attempts_this_session": 0,
+      "elapsed_seconds": 41.79485550000027,
+      "battles_per_second": 0.2871166763574508,
+      "mean_battle_runtime_seconds": 12.18494735416698,
+      "approx_peak_pool_bytes": 546701312,
+      "measured_worker_and_child_cpu_seconds": 145.058327,
+      "archive_bytes_written": 1004183,
+      "worker_pids": [
+        75404,
+        75405,
+        75406,
+        75407
+      ],
+      "interrupted": false,
+      "fatal_error": null,
+      "complete": true,
+      "logical_results_equal": true,
+      "speedup": 3.154855144193522,
+      "projected_1205904_days": 48.611673829930865
+    },
+    {
+      "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+      "workers": 6,
+      "total": 12,
+      "completed": 12,
+      "remaining": 0,
+      "failed": 0,
+      "incomplete": 0,
+      "failed_attempts": 0,
+      "completed_this_session": 12,
+      "failed_attempts_this_session": 0,
+      "elapsed_seconds": 32.02324866699928,
+      "battles_per_second": 0.3747277524771022,
+      "mean_battle_runtime_seconds": 13.700319225667045,
+      "approx_peak_pool_bytes": 717914112,
+      "measured_worker_and_child_cpu_seconds": 162.33982600000002,
+      "archive_bytes_written": 1004183,
+      "worker_pids": [
+        75442,
+        75443,
+        75444,
+        75445,
+        75446,
+        75448
+      ],
+      "interrupted": false,
+      "fatal_error": null,
+      "complete": true,
+      "logical_results_equal": true,
+      "speedup": 4.117530867843595,
+      "projected_1205904_days": 37.24629982689921
+    },
+    {
+      "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+      "workers": 8,
+      "total": 12,
+      "completed": 12,
+      "remaining": 0,
+      "failed": 0,
+      "incomplete": 0,
+      "failed_attempts": 0,
+      "completed_this_session": 12,
+      "failed_attempts_this_session": 0,
+      "elapsed_seconds": 31.414265291998163,
+      "battles_per_second": 0.3819920627924613,
+      "mean_battle_runtime_seconds": 15.319499045082617,
+      "approx_peak_pool_bytes": 956170240,
+      "measured_worker_and_child_cpu_seconds": 180.251583,
+      "archive_bytes_written": 1004183,
+      "worker_pids": [
+        75477,
+        75478,
+        75479,
+        75480,
+        75481,
+        75484,
+        75486,
+        75488
+      ],
+      "interrupted": false,
+      "fatal_error": null,
+      "complete": true,
+      "logical_results_equal": true,
+      "speedup": 4.197351542344913,
+      "projected_1205904_days": 36.53799013568842
+    }
+  ],
+  "recommended_workers": 6,
+  "recommendation_rule": "smallest measured count reaching 95% of maximum throughput",
+  "limitations": "Unranked natural fixtures, not all 777 trainers. Includes spawn, bridge startup, verification, compression and durable commits. RAM is a peak estimate; source/OS/CPU differences require a fresh benchmark."
+}

@@ -1,0 +1,141 @@
+{
+  "scope": "natural-team single-battle fixtures",
+  "fixtures": [
+    {
+      "name": "pair-a",
+      "trainer_a": 100,
+      "trainer_b": 210,
+      "seed": 7,
+      "result": {
+        "rng_at_stop": 1192528514,
+        "stopped_party_sha256": "2b895fd9fbdaf2f054850dd1447858c822d5fa51060b4f363352cec8747b1a2b",
+        "trace_event_count": 102,
+        "trainer_a": 100,
+        "trainer_b": 210,
+        "seed": 7,
+        "outcome": "timeout",
+        "terminal_from_engine": false,
+        "frames": 12000,
+        "turns": 12,
+        "rng_start": 7,
+        "rng_after_party_init": 3952859539,
+        "rng_final": null,
+        "initial_party_sha256": "13b273cd054b59991ee7e09c7f64cba4ed8e5aa66b91b1dce011192da4235dc0",
+        "trace_sha256": "4caadbe090eb74e47839d53ddfcfad47d579f7970d2b0c1126a0848be0fab16a",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": false,
+        "both_ai": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2274259660,
+          "sequence": 36,
+          "turn": 0,
+          "value0": 106,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 233789082,
+          "sequence": 46,
+          "turn": 2,
+          "value0": 133,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3448919045,
+          "sequence": 51,
+          "turn": 3,
+          "value0": 106,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2254846564,
+          "sequence": 61,
+          "turn": 5,
+          "value0": 106,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 1362386405,
+          "sequence": 87,
+          "turn": 10,
+          "value0": 106,
+          "value1": 1
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3558958351,
+          "sequence": 93,
+          "turn": 11,
+          "value0": 219,
+          "value1": 0
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3524435738,
+          "sequence": 94,
+          "turn": 11,
+          "value0": 54,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 1813258857,
+          "sequence": 99,
+          "turn": 12,
+          "value0": 182,
+          "value1": 1
+        }
+      ],
+      "potion_heals": []
+    }
+  ],
+  "passed": false,
+  "error": "Fixture failed: pair-a; inspect saved engine events"
+}

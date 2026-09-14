@@ -1,0 +1,32 @@
+[
+  {
+    "side": 1,
+    "slot": 0,
+    "species": 202,
+    "level": 32,
+    "personality": 750728,
+    "ot_id": 3055975991,
+    "nature": 3,
+    "ability": 23,
+    "gender": 0,
+    "hp": 163,
+    "max_hp": 163,
+    "attack": 28,
+    "defense": 42,
+    "speed": 26,
+    "sp_attack": 23,
+    "sp_defense": 42,
+    "status": 0,
+    "held_item": 0,
+    "move0": 194,
+    "move1": 219,
+    "move2": 68,
+    "move3": 243,
+    "pp0": 5,
+    "pp1": 25,
+    "pp2": 20,
+    "pp3": 20,
+    "friendship": 70,
+    "experience": 32768
+  }
+]

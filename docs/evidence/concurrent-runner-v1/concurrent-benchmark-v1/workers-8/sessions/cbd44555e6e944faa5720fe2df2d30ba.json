@@ -1,0 +1,31 @@
+{
+  "plan_id": "c97d4a3bc80bfb2121c3eff9ebcbe12854cc3f98eefba750e30d0893ec823fc6",
+  "workers": 8,
+  "total": 12,
+  "completed": 12,
+  "remaining": 0,
+  "failed": 0,
+  "incomplete": 0,
+  "failed_attempts": 0,
+  "completed_this_session": 12,
+  "failed_attempts_this_session": 0,
+  "elapsed_seconds": 31.414265291998163,
+  "battles_per_second": 0.3819920627924613,
+  "mean_battle_runtime_seconds": 15.319499045082617,
+  "approx_peak_pool_bytes": 956170240,
+  "measured_worker_and_child_cpu_seconds": 180.251583,
+  "archive_bytes_written": 1004183,
+  "worker_pids": [
+    75477,
+    75478,
+    75479,
+    75480,
+    75481,
+    75484,
+    75486,
+    75488
+  ],
+  "interrupted": false,
+  "fatal_error": null,
+  "complete": true
+}

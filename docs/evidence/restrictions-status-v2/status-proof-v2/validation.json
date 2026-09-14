@@ -1,0 +1,2579 @@
+{
+  "passed": true,
+  "proofs": {
+    "paralysis": [
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-a",
+        "side": 0,
+        "before": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 78,
+          "event_count": 35,
+          "frame": 1247,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            68
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              20,
+              20,
+              20
+            ],
+            [
+              35,
+              29,
+              15,
+              30
+            ]
+          ],
+          "rng": 939952290,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 78,
+          "event_count": 35,
+          "frame": 1248,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            68
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              20,
+              20,
+              20
+            ],
+            [
+              35,
+              29,
+              15,
+              30
+            ]
+          ],
+          "rng": 216136156,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-a",
+        "side": 1,
+        "before": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 36,
+          "frame": 1813,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            68
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              20,
+              20,
+              19
+            ],
+            [
+              35,
+              29,
+              15,
+              30
+            ]
+          ],
+          "rng": 3167103464,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 36,
+          "frame": 1814,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            68
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              20,
+              20,
+              19
+            ],
+            [
+              35,
+              29,
+              15,
+              30
+            ]
+          ],
+          "rng": 3771415442,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-a",
+        "side": 1,
+        "before": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 95,
+          "frame": 11095,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            39
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              25,
+              18,
+              18,
+              18
+            ],
+            [
+              34,
+              27,
+              9,
+              29
+            ]
+          ],
+          "rng": 137017309,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            42,
+            34
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 95,
+          "frame": 11096,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            47,
+            39
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            68
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              25,
+              18,
+              18,
+              18
+            ],
+            [
+              34,
+              27,
+              9,
+              29
+            ]
+          ],
+          "rng": 3380139791,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            81,
+            44
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 1,
+        "before": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 78,
+          "event_count": 35,
+          "frame": 1227,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            68,
+            47
+          ],
+          "inventory": [
+            [
+              19,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              35,
+              29,
+              15,
+              30
+            ],
+            [
+              30,
+              20,
+              20,
+              20
+            ]
+          ],
+          "rng": 1475997242,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 78,
+          "event_count": 35,
+          "frame": 1228,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            68,
+            47
+          ],
+          "inventory": [
+            [
+              19,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              35,
+              29,
+              15,
+              30
+            ],
+            [
+              30,
+              20,
+              20,
+              20
+            ]
+          ],
+          "rng": 218371380,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 54,
+          "frame": 4487,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            68,
+            47
+          ],
+          "inventory": [
+            [
+              19,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              34,
+              27,
+              15,
+              29
+            ],
+            [
+              30,
+              19,
+              19,
+              19
+            ]
+          ],
+          "rng": 1912467050,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 54,
+          "frame": 4488,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            68,
+            47
+          ],
+          "inventory": [
+            [
+              19,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              34,
+              27,
+              15,
+              29
+            ],
+            [
+              30,
+              19,
+              19,
+              19
+            ]
+          ],
+          "rng": 2670004452,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 114,
+          "frame": 14604,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            58,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              28,
+              26,
+              14,
+              26
+            ],
+            [
+              28,
+              17,
+              17,
+              18
+            ]
+          ],
+          "rng": 28441406,
+          "script": 136256675,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            1,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 114,
+          "frame": 14605,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            58,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              28,
+              26,
+              14,
+              26
+            ],
+            [
+              28,
+              17,
+              17,
+              18
+            ]
+          ],
+          "rng": 2782778328,
+          "script": 136264975,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            64
+          ],
+          "status2": [
+            1,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 150,
+          "frame": 22548,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            48,
+            12
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              19
+            ],
+            [
+              25,
+              16,
+              15,
+              17
+            ]
+          ],
+          "rng": 3166808410,
+          "script": 136256675,
+          "slots": [
+            1,
+            0
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            1,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 86,
+          "event_count": 150,
+          "frame": 22549,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            48,
+            12
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              19
+            ],
+            [
+              25,
+              16,
+              15,
+              17
+            ]
+          ],
+          "rng": 868291924,
+          "script": 136264975,
+          "slots": [
+            1,
+            0
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            64
+          ],
+          "status2": [
+            1,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      }
+    ],
+    "confusion": [
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-a",
+        "side": 1,
+        "before": {
+          "abilities": [
+            42,
+            30
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 118,
+          "frame": 14586,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            26,
+            63
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            63
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              25,
+              16,
+              16,
+              18
+            ],
+            [
+              30,
+              10,
+              10,
+              19
+            ]
+          ],
+          "rng": 2556818379,
+          "script": 136256339,
+          "slots": [
+            0,
+            1
+          ],
+          "species": [
+            81,
+            363
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            42,
+            30
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 118,
+          "frame": 14587,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            26,
+            63
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 42,
+          "max_hp": [
+            47,
+            63
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              25,
+              16,
+              16,
+              18
+            ],
+            [
+              30,
+              10,
+              10,
+              19
+            ]
+          ],
+          "rng": 2075044636,
+          "script": 136265026,
+          "slots": [
+            0,
+            1
+          ],
+          "species": [
+            81,
+            363
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            4
+          ],
+          "types": [
+            [
+              13,
+              8
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 109,
+          "frame": 13481,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            58,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              29,
+              26,
+              14,
+              26
+            ],
+            [
+              28,
+              17,
+              17,
+              19
+            ]
+          ],
+          "rng": 2821720691,
+          "script": 136256339,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            34,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 109,
+          "frame": 13482,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            58,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 34,
+          "max_hp": [
+            68,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              29,
+              26,
+              14,
+              26
+            ],
+            [
+              28,
+              17,
+              17,
+              19
+            ]
+          ],
+          "rng": 507252708,
+          "script": 136265026,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            44,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            2,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 141,
+          "frame": 19206,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            63,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              20
+            ],
+            [
+              26,
+              16,
+              15,
+              18
+            ]
+          ],
+          "rng": 3557321988,
+          "script": 136256339,
+          "slots": [
+            1,
+            0
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 141,
+          "frame": 19207,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            63,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              20
+            ],
+            [
+              26,
+              16,
+              15,
+              18
+            ]
+          ],
+          "rng": 2808691817,
+          "script": 136265026,
+          "slots": [
+            1,
+            0
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            64
+          ],
+          "status2": [
+            3,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      },
+      {
+        "capture": "build/reports/status-magnemite-gloom-v2/pair-b",
+        "side": 0,
+        "before": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 181,
+          "frame": 28638,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            14,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              17
+            ],
+            [
+              29,
+              19,
+              20,
+              20
+            ]
+          ],
+          "rng": 2855696016,
+          "script": 136256339,
+          "slots": [
+            1,
+            2
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            30,
+            42
+          ],
+          "attacker": 1,
+          "crit_multiplier": 1,
+          "current_move": 48,
+          "event_count": 181,
+          "frame": 28639,
+          "held_items": [
+            0,
+            0
+          ],
+          "hp": [
+            14,
+            47
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 0,
+          "last_ability": 30,
+          "max_hp": [
+            63,
+            47
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              10,
+              9,
+              17
+            ],
+            [
+              29,
+              19,
+              20,
+              20
+            ]
+          ],
+          "rng": 2387922021,
+          "script": 136265026,
+          "slots": [
+            1,
+            2
+          ],
+          "species": [
+            363,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            64,
+            0
+          ],
+          "status2": [
+            2,
+            0
+          ],
+          "types": [
+            [
+              12,
+              3
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      }
+    ],
+    "sleep": [
+      {
+        "capture": "build/reports/sleep-skitty-magnemite-v2/pair-a",
+        "side": 1,
+        "before": {
+          "abilities": [
+            56,
+            42
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 47,
+          "event_count": 17,
+          "frame": 1673,
+          "held_items": [
+            139,
+            0
+          ],
+          "hp": [
+            18,
+            34
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 139,
+          "last_ability": 56,
+          "max_hp": [
+            40,
+            34
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              15,
+              14,
+              10
+            ],
+            [
+              35,
+              29,
+              20,
+              20
+            ]
+          ],
+          "rng": 1671697771,
+          "script": 136254470,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            315,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            0
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              0,
+              0
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        },
+        "after": {
+          "abilities": [
+            56,
+            42
+          ],
+          "attacker": 0,
+          "crit_multiplier": 1,
+          "current_move": 47,
+          "event_count": 17,
+          "frame": 1674,
+          "held_items": [
+            139,
+            0
+          ],
+          "hp": [
+            18,
+            34
+          ],
+          "inventory": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "item": 139,
+          "last_ability": 56,
+          "max_hp": [
+            40,
+            34
+          ],
+          "move_flags": 0,
+          "pp": [
+            [
+              30,
+              15,
+              14,
+              10
+            ],
+            [
+              35,
+              29,
+              20,
+              20
+            ]
+          ],
+          "rng": 980283708,
+          "script": 136264902,
+          "slots": [
+            0,
+            0
+          ],
+          "species": [
+            315,
+            81
+          ],
+          "stages": [
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          ],
+          "status1": [
+            0,
+            3
+          ],
+          "status2": [
+            0,
+            0
+          ],
+          "types": [
+            [
+              0,
+              0
+            ],
+            [
+              13,
+              8
+            ]
+          ],
+          "weather": 0
+        }
+      }
+    ]
+  }
+}

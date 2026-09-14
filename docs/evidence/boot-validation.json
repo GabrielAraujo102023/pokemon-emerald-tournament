@@ -1,0 +1,14 @@
+{
+  "kind": "boot/restore only; not party or battle validation",
+  "frames": 600,
+  "rtc": "fixed Unix epoch 0",
+  "rom_sha256": "e45d6fe6153dc48f1f39591edba8b283847346e3c7554373cc5d95be802f7286",
+  "elf_sha256": "3d3c5174f532048afc52d9f6ce266f94f8a03d49ea17673b4121785721d8f1a9",
+  "bridge_sha256": "671bde5f0f16adec221a9cce96b60e83414ec167761ce6ed980c1e4d07d93357",
+  "emulator": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+  "trace_identical": true,
+  "state_identical": true,
+  "restored_trace_identical": true,
+  "trace_sha256": "dc9e44b64efd0db24a13423e1f9ba07ab1a36e1ee134bb121c712b6a5c718ba1",
+  "checkpoint_sha256": "081aea35f68df95a019a8b4b971f2b47ddfb1f3edf5e2c91aabf8aa07930b67a"
+}

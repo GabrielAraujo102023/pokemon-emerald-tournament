@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "partial_resume_preserves_commits": true,
+    "spawn_worker_equivalence": true,
+    "workers_persist": true,
+    "archive_export": true,
+    "failure_not_success": true,
+    "sigint_commits_survive": true,
+    "sigint_clean_exit": true,
+    "sigint_resume_deduplicates": true,
+    "killed_commits_survive": true,
+    "killed_resume_deduplicates": true,
+    "both_recoveries_equivalent": true
+  }
+}

@@ -1,0 +1,33 @@
+.............................                                            [100%]
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/integration/test_emulated_battle.py::EmulatedBattleTests::test_different_seed_recorded_rng_difference
+PASSED tests/integration/test_emulated_battle.py::EmulatedBattleTests::test_same_seed_full_bytes_result_rng_and_trace
+PASSED tests/test_arm_construction_runtime.py::ArmConstructionRuntimeTests::test_same_and_different_seed_in_real_emulator
+PASSED tests/test_emu_protocol.py::ProtocolTests::test_arm_symbol_resolution_without_native_casts
+PASSED tests/test_emu_protocol.py::ProtocolTests::test_mailbox_validation
+PASSED tests/test_emu_protocol.py::ProtocolTests::test_ram_bounds
+PASSED tests/test_event_ring.py::test_physical_spans_cross_capacity
+PASSED tests/test_event_ring.py::test_reject_lost_or_invalid_cursors[0-129-128]
+PASSED tests/test_event_ring.py::test_reject_lost_or_invalid_cursors[3-2-128]
+PASSED tests/test_event_ring.py::test_reject_lost_or_invalid_cursors[0-0-0]
+PASSED tests/test_event_ring.py::test_reject_lost_or_invalid_cursors[-1-0-128]
+PASSED tests/test_event_ring.py::test_reject_lost_or_invalid_cursors[0-0-9000]
+PASSED tests/test_foundation.py::ExtractionTests::test_generated_artifact_is_reproducible
+PASSED tests/test_foundation.py::ExtractionTests::test_known_source_examples
+PASSED tests/test_foundation.py::ExtractionTests::test_pinned_population_and_party_invariants
+PASSED tests/test_foundation.py::RngTests::test_against_compiled_upstream_random_c
+PASSED tests/test_foundation.py::RngTests::test_seed_range_and_first_value
+PASSED tests/test_initialization.py::InitializationTests::test_half_order_is_explicit
+PASSED tests/test_initialization.py::InitializationTests::test_original_ot_rejection_loop_host_oracle
+PASSED tests/test_initialization.py::InitializationTests::test_repeatable_records_and_changed_seed
+PASSED tests/test_switch_evidence.py::test_real_capture_proves_switch
+PASSED tests/test_switch_evidence.py::test_forced_replacement_is_not_voluntary
+PASSED tests/test_switch_evidence.py::test_wrong_loaded_species_rejected
+PASSED tests/test_switch_evidence.py::test_no_subsequent_ai_action_rejected
+PASSED tests/test_teams.py::TeamTests::test_all_constructor_arguments_against_original_function
+PASSED tests/test_teams.py::TeamTests::test_duplicate_move_does_not_shift_oldest
+PASSED tests/test_teams.py::TeamTests::test_empty_party_rejected
+PASSED tests/test_teams.py::TeamTests::test_reproducible_generation_artifact
+PASSED tests/test_teams.py::TeamTests::test_sawyer_source_fixture
+29 passed in 13.77s

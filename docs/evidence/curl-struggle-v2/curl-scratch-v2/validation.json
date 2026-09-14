@@ -1,0 +1,230 @@
+{
+  "scope": "natural-team single-battle fixtures",
+  "fixtures": [
+    {
+      "name": "pair-a",
+      "trainer_a": 605,
+      "trainer_b": 523,
+      "seed": 12345,
+      "result": {
+        "rng_at_stop": 1716129356,
+        "stopped_party_sha256": "e1635ef4fb63783a23a9182d3f6cb64721686c08ec08a7ab34471e1d94bf5909",
+        "trace_event_count": 96,
+        "trainer_a": 605,
+        "trainer_b": 523,
+        "seed": 12345,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 11892,
+        "turns": 16,
+        "rng_start": 12345,
+        "rng_after_party_init": 1599794271,
+        "rng_final": 1716129356,
+        "initial_party_sha256": "bfcf1db02b3c0bdbe202049d76f950dd2c033be5afe6590f3b19e668c920cede",
+        "trace_sha256": "42a9e8d424b5ed3bbaaa71b0491b006ff802c84cbe06617e788c568c5474657a",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2854057681,
+          "sequence": 11,
+          "turn": 0,
+          "value0": 111,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 1229909234,
+          "sequence": 21,
+          "turn": 2,
+          "value0": 111,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2702062596,
+          "sequence": 31,
+          "turn": 4,
+          "value0": 111,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3093149024,
+          "sequence": 36,
+          "turn": 5,
+          "value0": 111,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2667888116,
+          "sequence": 51,
+          "turn": 8,
+          "value0": 111,
+          "value1": 0
+        },
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 1427091536,
+          "sequence": 56,
+          "turn": 9,
+          "value0": 111,
+          "value1": 0
+        }
+      ],
+      "potion_heals": []
+    },
+    {
+      "name": "pair-b",
+      "trainer_a": 523,
+      "trainer_b": 605,
+      "seed": 12345,
+      "result": {
+        "rng_at_stop": 3674063828,
+        "stopped_party_sha256": "25dd1be0678992853e252f2e1be70519c816830a9f02096e8f7f401c309d41d3",
+        "trace_event_count": 96,
+        "trainer_a": 523,
+        "trainer_b": 605,
+        "seed": 12345,
+        "outcome": "b_win",
+        "terminal_from_engine": true,
+        "frames": 12156,
+        "turns": 16,
+        "rng_start": 12345,
+        "rng_after_party_init": 1599794271,
+        "rng_final": 3674063828,
+        "initial_party_sha256": "0815a29267b69a8e9028880e351d7e32988f3cd3dcffd3d014afed228c9d3946",
+        "trace_sha256": "175d5fe3e0a1f7d7ef0487a644cf2600d525b629b13e886ab1d25946225de8c2",
+        "max_frames": 36000,
+        "provenance": {
+          "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+          "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+          "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 2,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3254554554,
+          "sequence": 12,
+          "turn": 0,
+          "value0": 111,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 568119451,
+          "sequence": 17,
+          "turn": 1,
+          "value0": 111,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2789155008,
+          "sequence": 22,
+          "turn": 2,
+          "value0": 111,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 2091646009,
+          "sequence": 27,
+          "turn": 3,
+          "value0": 111,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 511873796,
+          "sequence": 57,
+          "turn": 9,
+          "value0": 111,
+          "value1": 1
+        },
+        {
+          "battler": 1,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3353719726,
+          "sequence": 77,
+          "turn": 13,
+          "value0": 111,
+          "value1": 1
+        }
+      ],
+      "potion_heals": []
+    }
+  ],
+  "passed": true
+}

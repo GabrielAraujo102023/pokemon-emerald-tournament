@@ -1,0 +1,62 @@
+{
+  "compiler": {
+    "command": [
+      "cc",
+      "--version"
+    ],
+    "returncode": 0,
+    "stdout": "Apple clang version 21.0.0 (clang-2100.0.123.102)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+    "stderr": ""
+  },
+  "tools": {
+    "arm-none-eabi-gcc": null,
+    "mgba": null,
+    "qemu-system-arm": null
+  },
+  "probes": [
+    {
+      "command": [
+        "cc",
+        "<temporary>/width.c",
+        "-o",
+        "<temporary>/probe"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "execution": {
+        "command": [
+          "<temporary>/probe"
+        ],
+        "returncode": 1,
+        "stdout": "8 4308090880\n",
+        "stderr": ""
+      }
+    },
+    {
+      "command": [
+        "cc",
+        "-m32",
+        "<temporary>/width.c",
+        "-o",
+        "<temporary>/probe"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "ld: unknown/unsupported architecture name for: -arch armv4t\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n"
+    },
+    {
+      "command": [
+        "cc",
+        "-arch",
+        "i386",
+        "<temporary>/width.c",
+        "-o",
+        "<temporary>/probe"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "ld: warning: The i386 architecture is deprecated for macOS (remove from the Xcode build setting: ARCHS)\nld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, missing required architecture i386 in file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd (2 slices)\nUndefined symbols for architecture i386:\n  \"_printf\", referenced from:\n      _main in width-5dffbe.o\nld: symbol(s) not found for architecture i386\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "proposed; no battles authorized by eligibility classification alone",
+  "trainers": [
+    "TRAINER_SAWYER_1",
+    "TRAINER_GRUNT_PETALBURG_WOODS",
+    "TRAINER_FELIX",
+    "TRAINER_ROXANNE_1",
+    "TRAINER_BRAWLY_1",
+    "TRAINER_WATTSON_1",
+    "TRAINER_NORMAN_1",
+    "TRAINER_WALLACE"
+  ],
+  "requirements": ["single and multiple Pokemon", "different AI masks", "default and explicit moves", "held and trainer items", "low and high levels"],
+  "acceptance": "Complete construction oracle and actual-engine battle validation before ranking"
+}

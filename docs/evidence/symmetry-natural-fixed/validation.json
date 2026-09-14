@@ -1,0 +1,149 @@
+{
+  "scope": "natural-team single-battle fixtures",
+  "fixtures": [
+    {
+      "name": "swapped-baseline",
+      "trainer_a": 335,
+      "trainer_b": 1,
+      "seed": 12345,
+      "result": {
+        "trainer_a": 335,
+        "trainer_b": 1,
+        "seed": 12345,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 1916,
+        "turns": 0,
+        "rng_start": 12345,
+        "rng_after_party_init": 1510019643,
+        "rng_final": 67051895,
+        "initial_party_sha256": "739ee637aa547ae4511c89df7a74931f66302c84c3d1365326930f0bb2aa142f",
+        "trace_sha256": "8fa956cce066e2728b93c8b2847e81158b0e10f6d7d7b326a1204a3f267977d7",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true,
+        "wallace_wins": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [],
+      "potion_heals": []
+    },
+    {
+      "name": "replacement-side-a",
+      "trainer_a": 265,
+      "trainer_b": 335,
+      "seed": 12345,
+      "result": {
+        "trainer_a": 265,
+        "trainer_b": 335,
+        "seed": 12345,
+        "outcome": "b_win",
+        "terminal_from_engine": true,
+        "frames": 4309,
+        "turns": 2,
+        "rng_start": 12345,
+        "rng_after_party_init": 1240139504,
+        "rng_final": 2964085671,
+        "initial_party_sha256": "e10be0adf062f5bde61d8a997b467068968aeacded72a6a4bd3582d174fcd748",
+        "trace_sha256": "aaf9bb14334348bac81c2cda6c32f7393ffb9a648302311fe96ceb1637abb56c",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true,
+        "wallace_wins": true,
+        "replacement_observed": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [
+        {
+          "battler": 0,
+          "event": "move_selected",
+          "kind": 4,
+          "phase": 5,
+          "rng": 3255949029,
+          "sequence": 79,
+          "turn": 2,
+          "value0": 106,
+          "value1": 0
+        }
+      ],
+      "potion_heals": []
+    },
+    {
+      "name": "replacement-side-b",
+      "trainer_a": 335,
+      "trainer_b": 265,
+      "seed": 12345,
+      "result": {
+        "trainer_a": 335,
+        "trainer_b": 265,
+        "seed": 12345,
+        "outcome": "a_win",
+        "terminal_from_engine": true,
+        "frames": 4584,
+        "turns": 2,
+        "rng_start": 12345,
+        "rng_after_party_init": 1240139504,
+        "rng_final": 254533676,
+        "initial_party_sha256": "b0ddfbbb6b4471b517a19933c3f9ca903eb881d586ae192acf67027dad7a3571",
+        "trace_sha256": "96525aff3a46b570d242444dc342ae04da7845e6db3edef8a34909350079a460",
+        "max_frames": 12000,
+        "provenance": {
+          "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+          "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+          "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+          "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+          "rules_version": 1,
+          "abi_version": 1,
+          "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+          "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+          "adapter_version": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+          "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+          "checkpoint_entry": "TournamentReady after normal new-game initialization",
+          "validation_evidence": "build/reports/constructor-validation.json; construction only"
+        }
+      },
+      "checks": {
+        "terminal": true,
+        "both_ai": true,
+        "wallace_wins": true,
+        "replacement_observed": true
+      },
+      "observed_items": [],
+      "observed_self_targets": [],
+      "potion_heals": []
+    }
+  ],
+  "passed": true
+}

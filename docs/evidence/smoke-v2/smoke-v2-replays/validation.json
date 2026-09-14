@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "replays": {
+    "terminal": {
+      "match_id": "179ed8f5fa271a89271d825e4a30067e976f315dbd2258e13d56668b29f89395",
+      "passed": true,
+      "compact_result_equal": true,
+      "byte_comparisons": {
+        "events.bin": true,
+        "initial_parties.bin": true,
+        "stopped_parties.bin": true,
+        "final_parties.bin": true
+      }
+    },
+    "timeout": {
+      "match_id": "9120e6387960b2640ff48e97b4834e1a7831518401770684cf5199316145c715",
+      "passed": true,
+      "compact_result_equal": true,
+      "byte_comparisons": {
+        "events.bin": true,
+        "initial_parties.bin": true,
+        "stopped_parties.bin": true
+      }
+    }
+  }
+}

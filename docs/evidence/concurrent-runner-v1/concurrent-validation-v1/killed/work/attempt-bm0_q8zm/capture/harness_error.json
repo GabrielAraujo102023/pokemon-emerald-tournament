@@ -1,0 +1,5 @@
+{
+  "error": "Bridge exited before completing the command",
+  "battle_validation_passed": false,
+  "diagnostic_error": "[Errno 32] Broken pipe"
+}

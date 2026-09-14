@@ -1,0 +1,17 @@
+{
+  "src/emerald_tournament/parallel_benchmark.py": "2f3b15aa91032e0e5171df588af578c4a6b6f4bd805aeb0c162c1f70d8f1dd58",
+  "src/emerald_tournament/parallel_plan.py": "7c2446e1c160ee06f867b8408c57b7819f1ccc1034e547947f24c15ef6152078",
+  "src/emerald_tournament/parallel_worker.py": "9eac30d11a55e8b4186d31529f80568a29ba41ebce09c77fa650516c03ed6505",
+  "src/emerald_tournament/parallel_runner.py": "869d6435eaaf54b28ccf0f785f41ccec81e4b2a837e0021378051096beb868f7",
+  "src/emerald_tournament/parallel_cli.py": "20b78a95bdbf42c4f3d7f42daefb8a79f395d195d337cab5401452f40913b089",
+  "src/emerald_tournament/parallel_platform.py": "33a6606087e5763701f4d90dd315188afdbbea956c44b7bd2444c81353990470",
+  "src/emerald_tournament/parallel_store.py": "df11b79fb39b9c18a044228bafc2bbf93595a3690f41b1fd579da0e4306b7320",
+  "src/emerald_tournament/parallel_tasks.py": "554525f5b3a81efa8e7ea903e25a75833bfda454764b6e925047ee07d564a1f6",
+  "src/emerald_tournament/parallel_export.py": "15257ee85f1875e1989274e5337cced72984d777f2193ade97128de76b4b7d3c",
+  "tournament.py": "4813e637682ff1fce04cbcea2bcbc0b69fdf5c16d83177bd09a6604bb6f9822d",
+  "pyproject.toml": "2240237e47ac75c674d60689a85b53f5747fcb4547274e9de9d46d294b7221c8",
+  "tools/validate_parallel_runner.py": "29cfbb96dff8cc415b8febe081b8f5fc914ca6357844ce1ccf2cda7d555f23f3",
+  "tools/profile_parallel_battle.py": "8339ac94307090a4febbe8f0972b860385bee775bafc7cc57bf7c52e1db12248",
+  "tests/test_parallel_orchestration.py": "7681a7b41551640c8e77ea4cc54572f57d49b59f5dcc5bb8cbb16e8a91e8ec43",
+  "tests/test_parallel_spawn.py": "6c438eca7e9b2917d24b448985e1d4476565b59002e4036b6be4b6b072f26e2f"
+}

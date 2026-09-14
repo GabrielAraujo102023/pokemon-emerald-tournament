@@ -1,0 +1,52 @@
+{
+  "version": "covered-normal-singles-v2",
+  "description": "First conservative trainer-entry league; every excluded entry remains in the manifest. Not an all-Emerald coverage claim.",
+  "categories": [
+    "standard_single",
+    "alternate_story_version"
+  ],
+  "encounter_commands": [
+    "trainerbattle_single",
+    "trainerbattle_no_intro"
+  ],
+  "max_party_size": 1,
+  "ai_flags": [
+    1,
+    7,
+    11
+  ],
+  "moves": [
+    "MOVE_NONE",
+    "MOVE_TACKLE",
+    "MOVE_SCRATCH",
+    "MOVE_GROWL",
+    "MOVE_TAIL_WHIP",
+    "MOVE_DEFENSE_CURL"
+  ],
+  "runtime_moves": [
+    10,
+    33,
+    39,
+    45,
+    111,
+    165
+  ],
+  "abilities": {
+    "47": "Thick Fat cannot activate: the entire league has no Fire/Ice attack; pokemon.c type guard",
+    "53": "Pickup has no in-battle effect in this source; result capture precedes postbattle pickup",
+    "66": "Blaze cannot activate: this league has no Fire attack; pokemon.c type guard",
+    "67": "Torrent cannot activate: this league has no Water attack; pokemon.c type guard",
+    "69": "Rock Head has no non-Struggle recoil move in scope; Struggle bypasses it in battle_scripts_1.s"
+  },
+  "held_items": [
+    "ITEM_NONE",
+    "ITEM_NUGGET"
+  ],
+  "trainer_items": [
+    "ITEM_NONE",
+    "ITEM_FULL_RESTORE"
+  ],
+  "item_note": "No status-inflicting move or ability in this league; Full Restore healing only. Nugget has no holdEffect.",
+  "implicit_move_policy": "Struggle admitted after natural PP exhaustion, damage and recoil proof: docs/evidence/curl-struggle-v2/struggle-proof-v2/validation.json",
+  "exclusions": "All unlisted moves, abilities, held/trainer items, multi-member parties, categories and encounter commands rejected; no team substitutions."
+}

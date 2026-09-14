@@ -1,0 +1,90 @@
+[
+  {
+    "trainer_id": 320,
+    "wins": 8,
+    "losses": 0,
+    "draws": 0,
+    "timeouts": 0,
+    "games_played": 8,
+    "elo": 1602.8235902619385,
+    "attempts": 8,
+    "win_rate": 1.0
+  },
+  {
+    "trainer_id": 605,
+    "wins": 4,
+    "losses": 1,
+    "draws": 0,
+    "timeouts": 3,
+    "games_played": 5,
+    "elo": 1548.6693216274175,
+    "attempts": 8,
+    "win_rate": 0.8
+  },
+  {
+    "trainer_id": 114,
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "timeouts": 4,
+    "games_played": 4,
+    "elo": 1499.8714272350912,
+    "attempts": 8,
+    "win_rate": 0.5
+  },
+  {
+    "trainer_id": 532,
+    "wins": 4,
+    "losses": 4,
+    "draws": 0,
+    "timeouts": 0,
+    "games_played": 8,
+    "elo": 1499.8479610387053,
+    "attempts": 8,
+    "win_rate": 0.5
+  },
+  {
+    "trainer_id": 535,
+    "wins": 3,
+    "losses": 4,
+    "draws": 0,
+    "timeouts": 1,
+    "games_played": 7,
+    "elo": 1481.158592965108,
+    "attempts": 8,
+    "win_rate": 0.42857142857142855
+  },
+  {
+    "trainer_id": 526,
+    "wins": 3,
+    "losses": 5,
+    "draws": 0,
+    "timeouts": 0,
+    "games_played": 8,
+    "elo": 1464.1509448564993,
+    "attempts": 8,
+    "win_rate": 0.375
+  },
+  {
+    "trainer_id": 523,
+    "wins": 2,
+    "losses": 6,
+    "draws": 0,
+    "timeouts": 0,
+    "games_played": 8,
+    "elo": 1460.5182081014937,
+    "attempts": 8,
+    "win_rate": 0.25
+  },
+  {
+    "trainer_id": 136,
+    "wins": 1,
+    "losses": 5,
+    "draws": 0,
+    "timeouts": 2,
+    "games_played": 6,
+    "elo": 1442.9599539137464,
+    "attempts": 8,
+    "win_rate": 0.16666666666666666
+  }
+]

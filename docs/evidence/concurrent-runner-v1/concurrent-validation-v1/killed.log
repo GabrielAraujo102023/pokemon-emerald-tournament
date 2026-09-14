@@ -1,0 +1,6 @@
+Starting new tournament state. Completed: 0; remaining: 32; failed: 0; incomplete/unstarted: 32
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 1s | ETA: unknown | Failed: 0 | Workers: 2
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 2s | ETA: unknown | Failed: 0 | Workers: 2
+Completed: 0 / 32 (0.00%) | Rate: 0.00 battles/s | Elapsed: 0d 0h 0m 3s | ETA: unknown | Failed: 0 | Workers: 2
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:276: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-f6y854eb', '/mp-m2l1c985', '/mp-hx83ubrh', '/mp-f1_4rvko', '/mp-3vr2gzrn'}
+  warnings.warn(

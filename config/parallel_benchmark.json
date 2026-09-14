@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "mode": "benchmark",
+  "scope": "fixture",
+  "trainer_ids": [
+    261,
+    263,
+    264,
+    335
+  ],
+  "pairing": "all_pairs",
+  "master_seed": 20260913,
+  "frame_budgets": [
+    36000
+  ],
+  "runtime_files": {
+    "mgba": "build/mgba-prefix/lib/libmgba.0.10.5.dylib",
+    "libpng": "/opt/homebrew/opt/libpng/lib/libpng16.16.dylib"
+  }
+}

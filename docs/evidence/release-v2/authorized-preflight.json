@@ -1,0 +1,1199 @@
+{
+  "runtime_hashes": {
+    "build/mgba-prefix/lib/libmgba.0.10.5.dylib": "fa62eeec5ee04136e41126e0d5b96dfcecf53e45bcf314bda463cfc60e408795",
+    "/opt/homebrew/opt/libpng/lib/libpng16.16.dylib": "ed50e7c1582d94c40489a37097cbb2fcea81e5450173ee9bbe2871cbfdea27eb",
+    "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc": "0defac10407e5c0ec6cb18d52d904f86c701a588e9d5e7aa578fe05c91076e3f"
+  },
+  "host_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "config": {
+    "schema_version": 1,
+    "mode": "full",
+    "population_manifest": "build/reports/population-v2/population.json",
+    "pairing": "all_pairs",
+    "repetitions": 2,
+    "max_frames_by_repetition": [
+      36000,
+      36000
+    ],
+    "master_seed": 20260913,
+    "seed_version": "sha256-canonical-pair-repetition-orientation-v1",
+    "ranking_config": "config/ranking.yaml",
+    "timeout_policy": "separate censored outcome; no Elo, W/L/D or win-rate contribution",
+    "overflow_policy": "failure with retained diagnostics; no result inserted",
+    "backend": "single-authoritative-emerald-arm-instance",
+    "tournament_authorized": true
+  },
+  "population_sha256": "24801b01958d0df642f16674bf5ce77a4e5e5a88ac35ad5697de3506c518e036",
+  "supported_ids": [
+    114,
+    136,
+    320,
+    523,
+    526,
+    532,
+    535,
+    605
+  ],
+  "provenance": {
+    "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+    "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+    "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+    "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+    "rules_version": 1,
+    "abi_version": 2,
+    "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+    "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+    "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "checkpoint_entry": "TournamentReady after normal new-game initialization",
+    "validation_evidence": "build/reports/constructor-validation.json; construction only"
+  },
+  "source_hashes": {
+    "src/emerald_tournament/emu_battle.py": "d96055ce9145ad4293164ba152d3c30abd5f729cb40ee95d6865edbffea688b9",
+    "src/emerald_tournament/emu_protocol.py": "b09483bfd13a2d7c1a36534d160c7477e3f66cd07cf65be037b592596650189c",
+    "src/emerald_tournament/admission.py": "d5889cc353cb8ecefc3e37a6bfa2bcc9108f9a79f3fc840cd4985c5fb1e895cb",
+    "src/emerald_tournament/teams.py": "237ed608562954cfdba37f4f64e8b64fef7d2a7f899944b99b3c1b587b92ac84",
+    "src/emerald_tournament/tournament.py": "b823fae565f078686d8d1896883154e093820c2d55a2f675d9f1aec5ad020f26",
+    "src/emerald_tournament/result_store.py": "c3d59e7efb159374590a581d1f68189e37eaff6a58a54d4c1a472915a0f5edf7",
+    "src/emerald_tournament/ranking.py": "53e8b6348d6f1bbb8fcd443ae5dbc2a9548bb4bbce037f042ba70fb671828348",
+    "src/emerald_tournament/replay.py": "b9f2730f9775b8d85b67e3628e83c44a49e139a785a261786f2e647c2328cfed",
+    "adapter/tournament_adapter.c": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+    "adapter/tournament_protocol.h": "3ba72c58abc8fa84f3930d417281a4f928531091ecc4a0f915921a2f98ae9c93",
+    "adapter/tournament_battle.h": "bcf78839165d23456bdbfd820e18e80f0e8bbc92232a30cf92c8d81cdf5aa20d",
+    "tools/apply_battle_adapter.py": "0ee2bf41b0287641a8c1eeac406b3a0439c6ed247f64c2d45fad9139120b361d",
+    "tools/apply_constructor_adapter.py": "de02786570397b6690e199f4b1086f5262874a307d7cb7f961185c328b0f06d7"
+  },
+  "ranking": {
+    "version": 1,
+    "initial_elo": 1500,
+    "k": 32,
+    "order": "schedule ordinal ascending: sorted pair, repetition, orientation",
+    "draw_score": 0.5,
+    "timeouts": "count separately, excluded from Elo and win-rate denominator"
+  },
+  "run_id": "0e7465d80c315d77e94520866cd6b25828806f343540e7b0a04d063bfd408ba5",
+  "unique_pairs": 28,
+  "expected_battles": 112,
+  "schedule": [
+    {
+      "ordinal": 0,
+      "trainer_a": 114,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3391548287,
+      "max_frames": 36000,
+      "match_id": "0e8aa42f023933976f80addbee18249746dfecbe990f672ecd1281614a00e631"
+    },
+    {
+      "ordinal": 1,
+      "trainer_a": 136,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 2694319196,
+      "max_frames": 36000,
+      "match_id": "0a51f05f5edc369a5c82e6fcc61affab1f23016c4716b7cd771d7b30cf6beef9"
+    },
+    {
+      "ordinal": 2,
+      "trainer_a": 114,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2353931152,
+      "max_frames": 36000,
+      "match_id": "27c47c1db3c72af587a45fafc4831c7cade814c47dfe7d332073d6541b44cbb8"
+    },
+    {
+      "ordinal": 3,
+      "trainer_a": 136,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2047212219,
+      "max_frames": 36000,
+      "match_id": "a5b779be0830f4ac22dca67e8ee219448874c5d5e68e4de9d69d87b5c27824a7"
+    },
+    {
+      "ordinal": 4,
+      "trainer_a": 114,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3336458555,
+      "max_frames": 36000,
+      "match_id": "5a19d6a1fe9ebcde08b14ff3da78fe97a1b68c16ea74aab649e5aee045d73033"
+    },
+    {
+      "ordinal": 5,
+      "trainer_a": 320,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 613770536,
+      "max_frames": 36000,
+      "match_id": "7412eef3e7101dc6be4ce9cd4cfe0f1d3a7fde1f91e2c2391668506022784681"
+    },
+    {
+      "ordinal": 6,
+      "trainer_a": 114,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1637330255,
+      "max_frames": 36000,
+      "match_id": "80ebe323d7e3e5f44ff27c163d840749595f61ede2e65d5ddd29fe981422174a"
+    },
+    {
+      "ordinal": 7,
+      "trainer_a": 320,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2454178320,
+      "max_frames": 36000,
+      "match_id": "2b1de45af6362c168cd84e67cc2af472cb3e76ec73df88315b2e4b388c579ea3"
+    },
+    {
+      "ordinal": 8,
+      "trainer_a": 114,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 637636976,
+      "max_frames": 36000,
+      "match_id": "390552266acd7684e06a9bd6ce92d2c399980b4b2ca13c10d90271ecc615ea03"
+    },
+    {
+      "ordinal": 9,
+      "trainer_a": 523,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3958184008,
+      "max_frames": 36000,
+      "match_id": "6370d586d5af81c4117ebe96dd37c1186b5274e201dcfc0cd90baac9b3baa55d"
+    },
+    {
+      "ordinal": 10,
+      "trainer_a": 114,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 3771483280,
+      "max_frames": 36000,
+      "match_id": "d4a6e0ab3995ab3e033b6641030ada1414e66e586bf56ed37f79f7f56eace08b"
+    },
+    {
+      "ordinal": 11,
+      "trainer_a": 523,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 351513315,
+      "max_frames": 36000,
+      "match_id": "11ad81d3305f1843f14c41be4d23a0b0b0658f6130483579b014f0d40e175955"
+    },
+    {
+      "ordinal": 12,
+      "trainer_a": 114,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 357689972,
+      "max_frames": 36000,
+      "match_id": "bcf3c19e8a13231833499d2a82d1e652dc3164b813df22c4972cbf2460bd5eac"
+    },
+    {
+      "ordinal": 13,
+      "trainer_a": 526,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3107203455,
+      "max_frames": 36000,
+      "match_id": "3efc33e55280ef46e81a1d83de399252eafbbb4a1471c6f2386f6ad0e7367f34"
+    },
+    {
+      "ordinal": 14,
+      "trainer_a": 114,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 3207934505,
+      "max_frames": 36000,
+      "match_id": "8910be3bb97823e6fc7cfc93b2efe2d15400551954264dbfa85cd1182a900eee"
+    },
+    {
+      "ordinal": 15,
+      "trainer_a": 526,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 4158719609,
+      "max_frames": 36000,
+      "match_id": "6ae7cec6e85c18f208d1ab072c9136f9793ac5d5f3a387a9af5351702e26120f"
+    },
+    {
+      "ordinal": 16,
+      "trainer_a": 114,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2006750316,
+      "max_frames": 36000,
+      "match_id": "cbd1a063a51727483be2fa840ab8ec6e1a831699170a3c983e602425bf7b8e17"
+    },
+    {
+      "ordinal": 17,
+      "trainer_a": 532,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1309122483,
+      "max_frames": 36000,
+      "match_id": "b6a96a260817eb2ec4d3f390f33169cb0e828094016936fbbbbdb5e6691cbd71"
+    },
+    {
+      "ordinal": 18,
+      "trainer_a": 114,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2223545255,
+      "max_frames": 36000,
+      "match_id": "35e989feea30764c349744970b1a58a7464d405e40ce82d0650f508d02c3a258"
+    },
+    {
+      "ordinal": 19,
+      "trainer_a": 532,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1085413211,
+      "max_frames": 36000,
+      "match_id": "6b0d4275aa6474abaead61f61d7847551c320458c476487ca8537c9f8b3379f2"
+    },
+    {
+      "ordinal": 20,
+      "trainer_a": 114,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3258196135,
+      "max_frames": 36000,
+      "match_id": "06751520e1735fe3d8c4847b1fb118e54cbfe9593b3d60ef4a9a4b4f115448ae"
+    },
+    {
+      "ordinal": 21,
+      "trainer_a": 535,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 2688258377,
+      "max_frames": 36000,
+      "match_id": "51f318605175c5e21b084b55c67cadd531f8a8ce9247dd58108a2210f2ba6fcf"
+    },
+    {
+      "ordinal": 22,
+      "trainer_a": 114,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 3018091812,
+      "max_frames": 36000,
+      "match_id": "df2faefea10de50bc4dff03d9c787eaf44bb24455c5eafa27c5a36427bb782ad"
+    },
+    {
+      "ordinal": 23,
+      "trainer_a": 535,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 66353727,
+      "max_frames": 36000,
+      "match_id": "4b60fcc8052159778bf11f3bd331c83140cbfbd161e0d0be0a73a825b988c86c"
+    },
+    {
+      "ordinal": 24,
+      "trainer_a": 114,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 4143864724,
+      "max_frames": 36000,
+      "match_id": "ac8e958fbfa3ef95a92ec71eb9de4ae6caebfaa777cd04fec8e12d85412fb8d9"
+    },
+    {
+      "ordinal": 25,
+      "trainer_a": 605,
+      "trainer_b": 114,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1580419788,
+      "max_frames": 36000,
+      "match_id": "51b293df67b4c57e2818fe027970208fb972a0dea744444a83ef2d0e53f5ae27"
+    },
+    {
+      "ordinal": 26,
+      "trainer_a": 114,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 809831311,
+      "max_frames": 36000,
+      "match_id": "ecc294aeaa991f99dc2877d260af82d27d89c24ac56dafb0fa5ba6f49ee8faf4"
+    },
+    {
+      "ordinal": 27,
+      "trainer_a": 605,
+      "trainer_b": 114,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 4169789929,
+      "max_frames": 36000,
+      "match_id": "ea72e822e8e943cf169d559c0d6ab85e68f2b2697349e5be325fde85496e8588"
+    },
+    {
+      "ordinal": 28,
+      "trainer_a": 136,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3833300533,
+      "max_frames": 36000,
+      "match_id": "5b0654fd289faf3985fb4e039063782a6cca84d76641b799f718c482f01ae712"
+    },
+    {
+      "ordinal": 29,
+      "trainer_a": 320,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 4132212246,
+      "max_frames": 36000,
+      "match_id": "27c6822c7ec721e7c8bf0812458c1ff3c7199a0bfc15bca3038ff2a6b1d2fe02"
+    },
+    {
+      "ordinal": 30,
+      "trainer_a": 136,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 422216208,
+      "max_frames": 36000,
+      "match_id": "0b2f5c6f593954cf79fc9c31ea5d50d4c18fc5356fade3c71c3cb7f61d39ad2c"
+    },
+    {
+      "ordinal": 31,
+      "trainer_a": 320,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1517250101,
+      "max_frames": 36000,
+      "match_id": "0ab1339dab6b6f99546a3d092221dd6375dd49e9a1a43b0f8c043dbc43c1d109"
+    },
+    {
+      "ordinal": 32,
+      "trainer_a": 136,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2920061732,
+      "max_frames": 36000,
+      "match_id": "c5c2a94557ace1c2af1b433954dc1e4e76f963fbebdcb8db41a2e3aaa1568366"
+    },
+    {
+      "ordinal": 33,
+      "trainer_a": 523,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 2236831811,
+      "max_frames": 36000,
+      "match_id": "0ed7fad8ffadf01b8b9fa5f8b7c99f18d5cd0f106c8384330ccb8fea035fd3c1"
+    },
+    {
+      "ordinal": 34,
+      "trainer_a": 136,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 4101038104,
+      "max_frames": 36000,
+      "match_id": "3dddbe45b60f8c49ab4e9a0c588129a28afee6613d9b2029f585d00771ee8f5b"
+    },
+    {
+      "ordinal": 35,
+      "trainer_a": 523,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2441865031,
+      "max_frames": 36000,
+      "match_id": "55922b4a57b0f4e28ac236ce9e59f439624c6c0bfb9ec8500cbe56e46ca572bd"
+    },
+    {
+      "ordinal": 36,
+      "trainer_a": 136,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 297323555,
+      "max_frames": 36000,
+      "match_id": "385e2c26933ab3166551945400f7e8aef305f9ffa5bad71297ffc1675ba148a3"
+    },
+    {
+      "ordinal": 37,
+      "trainer_a": 526,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 4107529149,
+      "max_frames": 36000,
+      "match_id": "87bb939977e9e093633285e04f5a09114cd4a070e2dd0f6389a5f3174da2a30b"
+    },
+    {
+      "ordinal": 38,
+      "trainer_a": 136,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 3615961946,
+      "max_frames": 36000,
+      "match_id": "df932fd0d3a4e7570819e7aab72368f88d5966d8a69c78ab21c1b35f96295509"
+    },
+    {
+      "ordinal": 39,
+      "trainer_a": 526,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 943197931,
+      "max_frames": 36000,
+      "match_id": "fdb26a0426d3b0d8a078ebf33705a79531fa341917641988e341b3892b7c0508"
+    },
+    {
+      "ordinal": 40,
+      "trainer_a": 136,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3539338330,
+      "max_frames": 36000,
+      "match_id": "8856750d44142c329c8fc40a61869144b05f52bd5159614655158ded2b29e168"
+    },
+    {
+      "ordinal": 41,
+      "trainer_a": 532,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1574240596,
+      "max_frames": 36000,
+      "match_id": "51c2d7c87bec21626b4a4fc121ed1304fb84bac5a4d5db17d9adebdaef5d3116"
+    },
+    {
+      "ordinal": 42,
+      "trainer_a": 136,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1344863908,
+      "max_frames": 36000,
+      "match_id": "08e53c1196957faa1679392345b2d2866a27e690137da87d2006aec00f47c145"
+    },
+    {
+      "ordinal": 43,
+      "trainer_a": 532,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 775830719,
+      "max_frames": 36000,
+      "match_id": "014b220eebc44b7dfe1094cd07f62b325fc605744b164201749a676688f6631c"
+    },
+    {
+      "ordinal": 44,
+      "trainer_a": 136,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2897195626,
+      "max_frames": 36000,
+      "match_id": "6b297f27015d8ab3dff3c86c61b4580b0c96cbe08d7554f290fdf4106661875c"
+    },
+    {
+      "ordinal": 45,
+      "trainer_a": 535,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1714371890,
+      "max_frames": 36000,
+      "match_id": "0869c5302fa3a980fb2bcb66c3b8c422a89911bd87cf627192b9552b42f07634"
+    },
+    {
+      "ordinal": 46,
+      "trainer_a": 136,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 417648964,
+      "max_frames": 36000,
+      "match_id": "15531595b25464e09ca460e2f5bd3f31171647d9695d17c4d2893838cf3610c8"
+    },
+    {
+      "ordinal": 47,
+      "trainer_a": 535,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 225031949,
+      "max_frames": 36000,
+      "match_id": "4f8e605994ca5be97af164a2fea2bf05978ac4cc4044b7404564be9ed7988dbf"
+    },
+    {
+      "ordinal": 48,
+      "trainer_a": 136,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2138990397,
+      "max_frames": 36000,
+      "match_id": "8d50e45ac76e21eb74d258bdb55b18a8585906555af07caeed6ec96b7ae04120"
+    },
+    {
+      "ordinal": 49,
+      "trainer_a": 605,
+      "trainer_b": 136,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1898919022,
+      "max_frames": 36000,
+      "match_id": "f9e27ac224ccfd6519af107f373622553612d38dc57ee68cd807d29f3c9f30b9"
+    },
+    {
+      "ordinal": 50,
+      "trainer_a": 136,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1595710536,
+      "max_frames": 36000,
+      "match_id": "1b71b8231b60c7ae4fdccc455464e819ddd500bc0e8cda4174035833aed852ef"
+    },
+    {
+      "ordinal": 51,
+      "trainer_a": 605,
+      "trainer_b": 136,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 17737281,
+      "max_frames": 36000,
+      "match_id": "f29927626e62871dafabf4166cc6a2951a8cfec08937bce9bc9674ec411232b4"
+    },
+    {
+      "ordinal": 52,
+      "trainer_a": 320,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 786989063,
+      "max_frames": 36000,
+      "match_id": "defdb1c7a02865c7f2867a9997bed3bd3f67075d0f6d9ade6734b7fb37067fbe"
+    },
+    {
+      "ordinal": 53,
+      "trainer_a": 523,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3480789141,
+      "max_frames": 36000,
+      "match_id": "d3f505dab9b64bbf6e840e80771d9c17bc68072e4c0dca8881e7979c99910d88"
+    },
+    {
+      "ordinal": 54,
+      "trainer_a": 320,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1552681578,
+      "max_frames": 36000,
+      "match_id": "69fc1ffc4b8e1235c4429dabfba4c9b26258a5022f4431f4d13595310586e86d"
+    },
+    {
+      "ordinal": 55,
+      "trainer_a": 523,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1373058904,
+      "max_frames": 36000,
+      "match_id": "fe58a5c9a86bc5eb4104d7177e52a4c3d9e2a8a591557c3aa2d3bb7111e57729"
+    },
+    {
+      "ordinal": 56,
+      "trainer_a": 320,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3989585446,
+      "max_frames": 36000,
+      "match_id": "0b175a94077927aa288878034a1d9ea56dfd7cfbd13cc133e7f1f5a4720d35c6"
+    },
+    {
+      "ordinal": 57,
+      "trainer_a": 526,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1554078041,
+      "max_frames": 36000,
+      "match_id": "3088513b802f767a95f2fd2f23da729a51bc66fb5bd53d7ef4308c191af86544"
+    },
+    {
+      "ordinal": 58,
+      "trainer_a": 320,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1568898114,
+      "max_frames": 36000,
+      "match_id": "888fc917675284498c882158dd4cd36d0eeeb81f0800949e4fe8fa2f04a44513"
+    },
+    {
+      "ordinal": 59,
+      "trainer_a": 526,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 3275759634,
+      "max_frames": 36000,
+      "match_id": "1033101b7d9ae5406322719b99d078b980fb843244010846dd9a2c89b12586f4"
+    },
+    {
+      "ordinal": 60,
+      "trainer_a": 320,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3317492199,
+      "max_frames": 36000,
+      "match_id": "b1cc3ac443373e41b0340718f5fb859440958089ff6c3c70d8d2b9c6050d6125"
+    },
+    {
+      "ordinal": 61,
+      "trainer_a": 532,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1273165605,
+      "max_frames": 36000,
+      "match_id": "29d1eedaf62fc5b1b6d1e095daf95827d1b3ee1a9338f008ad44a4ca21417000"
+    },
+    {
+      "ordinal": 62,
+      "trainer_a": 320,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1913447394,
+      "max_frames": 36000,
+      "match_id": "966916056b68a2d2fe7f96085187a8f3ba11040f5fad19b5f7f291179d1542aa"
+    },
+    {
+      "ordinal": 63,
+      "trainer_a": 532,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 3602809440,
+      "max_frames": 36000,
+      "match_id": "efcda269a87ede1bf7eedc4222f99961689e4a04a06446aa0f35ef9a4106380a"
+    },
+    {
+      "ordinal": 64,
+      "trainer_a": 320,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 1573763725,
+      "max_frames": 36000,
+      "match_id": "c204b173864c2aa638fdaab0ffee85770ba78c0da7769cb6419e860837f96519"
+    },
+    {
+      "ordinal": 65,
+      "trainer_a": 535,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 4258954858,
+      "max_frames": 36000,
+      "match_id": "49928b7c4b963bcedd53600c3c21be581626a4a110d9b6bee17e8a6348f40127"
+    },
+    {
+      "ordinal": 66,
+      "trainer_a": 320,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1175582167,
+      "max_frames": 36000,
+      "match_id": "aec0f612ad2de7ca5278f218045e1633d0c6e6d5a2ada5e3ce3049fa5a606c57"
+    },
+    {
+      "ordinal": 67,
+      "trainer_a": 535,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2751812126,
+      "max_frames": 36000,
+      "match_id": "9a626da81fe4680a1a89659048df639848fd4b4231e8d9ddd9e7e51ec282ecee"
+    },
+    {
+      "ordinal": 68,
+      "trainer_a": 320,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 225861460,
+      "max_frames": 36000,
+      "match_id": "b61f1de0b73d0e306219894811b735b54777baca95d85fd4d640b87030943544"
+    },
+    {
+      "ordinal": 69,
+      "trainer_a": 605,
+      "trainer_b": 320,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 4142112870,
+      "max_frames": 36000,
+      "match_id": "de52b4ab490ef4bd89255199aa0fed8ef0a6fd4c55c120390cf4570e22e84888"
+    },
+    {
+      "ordinal": 70,
+      "trainer_a": 320,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2017954496,
+      "max_frames": 36000,
+      "match_id": "60a2a6e0ce26f567021a6af6d6fc36d80b7e74be1c2560686abef2514407d94d"
+    },
+    {
+      "ordinal": 71,
+      "trainer_a": 605,
+      "trainer_b": 320,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 224848846,
+      "max_frames": 36000,
+      "match_id": "fbcedaa7db3a5d8c9a6864a7816d96d512fac8e9f3010c91eec1b246a4bf948a"
+    },
+    {
+      "ordinal": 72,
+      "trainer_a": 523,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2860372278,
+      "max_frames": 36000,
+      "match_id": "adeea55ae0eea29e92159aee3af8b2764133f0919c0ce099971970e7e716fa08"
+    },
+    {
+      "ordinal": 73,
+      "trainer_a": 526,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1288578079,
+      "max_frames": 36000,
+      "match_id": "1a6a4f6694e10cb7cabdbc6b807b4d3cf0f069741d4b1fdd019305b92aedb3be"
+    },
+    {
+      "ordinal": 74,
+      "trainer_a": 523,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2665880902,
+      "max_frames": 36000,
+      "match_id": "acf194df06b97fecab230dc1e8b6d726d41826bc30870ba6fb0a7b9bae67459a"
+    },
+    {
+      "ordinal": 75,
+      "trainer_a": 526,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2839471337,
+      "max_frames": 36000,
+      "match_id": "ede71495c1e7f76f52f33435c5137d6e0aa5270e52016845cf2305248f51cdb0"
+    },
+    {
+      "ordinal": 76,
+      "trainer_a": 523,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 573806903,
+      "max_frames": 36000,
+      "match_id": "6f8b8d8359c77fe5fa1807eb22072353c4107bc8eab8b7b3b2cc0682fc5d3512"
+    },
+    {
+      "ordinal": 77,
+      "trainer_a": 532,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3585073954,
+      "max_frames": 36000,
+      "match_id": "039ce06ada586e456a5abdc990878c260cec8cda0659365eead7eef4011b2226"
+    },
+    {
+      "ordinal": 78,
+      "trainer_a": 523,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 3466501540,
+      "max_frames": 36000,
+      "match_id": "abf978dd46d8cb8a3e8de28a8b49956f3b7f80d98a3d58b2e2a3d629936c7862"
+    },
+    {
+      "ordinal": 79,
+      "trainer_a": 532,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 3396706475,
+      "max_frames": 36000,
+      "match_id": "26ed4be82a79c26ba3115aee9d6f41ec905bb2a347d4097fbc52a381bfc8b14f"
+    },
+    {
+      "ordinal": 80,
+      "trainer_a": 523,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3096651480,
+      "max_frames": 36000,
+      "match_id": "3daf3905ca6003044dbe16ab912d8ac5652dc7495111f6c4d4ef94d5ccd1a950"
+    },
+    {
+      "ordinal": 81,
+      "trainer_a": 535,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3809256331,
+      "max_frames": 36000,
+      "match_id": "a7b220722515585d069a3496d8402a14c0481097534348b737c915992b279b63"
+    },
+    {
+      "ordinal": 82,
+      "trainer_a": 523,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2930488416,
+      "max_frames": 36000,
+      "match_id": "71fc30ee69ef454a022200dff6197ef024c93fc59acc9176f145a20f821c94e8"
+    },
+    {
+      "ordinal": 83,
+      "trainer_a": 535,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 3455690326,
+      "max_frames": 36000,
+      "match_id": "b31eabd9d2ab4adf24723c25f9a987ccafe516e18fcce05ca32eeb0f00efefce"
+    },
+    {
+      "ordinal": 84,
+      "trainer_a": 523,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2984376973,
+      "max_frames": 36000,
+      "match_id": "cf64237ae7a2642f8e6416129b13feb4a52ba2a17fb960f0aa632298b91eb85e"
+    },
+    {
+      "ordinal": 85,
+      "trainer_a": 605,
+      "trainer_b": 523,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 46151616,
+      "max_frames": 36000,
+      "match_id": "b03fc9627ceee7936a24ba706e4d32f78a69d282454ea2c0e019ba2a13f7132a"
+    },
+    {
+      "ordinal": 86,
+      "trainer_a": 523,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 4050580508,
+      "max_frames": 36000,
+      "match_id": "da6cbbf4ade155dd6b3154048c318f8c644c1b70cc08d4bdeba64f236b50047e"
+    },
+    {
+      "ordinal": 87,
+      "trainer_a": 605,
+      "trainer_b": 523,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1701525794,
+      "max_frames": 36000,
+      "match_id": "76d21240b6bd495f38e6f358ff76d04d2f9326d1522b47d34e87a8157d5fef79"
+    },
+    {
+      "ordinal": 88,
+      "trainer_a": 526,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3394035156,
+      "max_frames": 36000,
+      "match_id": "75f166fc5e48af205e862a7b988eeaa54320afc1e2c5d7397f29539cb17256ee"
+    },
+    {
+      "ordinal": 89,
+      "trainer_a": 532,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 20241686,
+      "max_frames": 36000,
+      "match_id": "617275e7ddb1988e1e4f8c513e07b256b295d0dba68322ed84a3af69ea5e08a0"
+    },
+    {
+      "ordinal": 90,
+      "trainer_a": 526,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 594197195,
+      "max_frames": 36000,
+      "match_id": "a1a0d6206482d11b0239d63ebb2e380010147f5737cc3887f72f8bdcd4de83d7"
+    },
+    {
+      "ordinal": 91,
+      "trainer_a": 532,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1442473062,
+      "max_frames": 36000,
+      "match_id": "638dfb5477c55984f488a8cf12f6fa49bd3e615cda8794a3bb5349545c68043c"
+    },
+    {
+      "ordinal": 92,
+      "trainer_a": 526,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 750320350,
+      "max_frames": 36000,
+      "match_id": "823783a858c42f536ea5ea0b4a3fa266384d6754dc12c667efa3a4f102f4b3ca"
+    },
+    {
+      "ordinal": 93,
+      "trainer_a": 535,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1227930435,
+      "max_frames": 36000,
+      "match_id": "37d2d0f24a3b9261ed973c7cf901c5bb91e13a7d7d3eaaa292a28c8db5fef1ac"
+    },
+    {
+      "ordinal": 94,
+      "trainer_a": 526,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2315233807,
+      "max_frames": 36000,
+      "match_id": "c401c1fec5d2a18381a47fe5bb9bc3e2973c3a74d6f33c113fa37fa4f092cd25"
+    },
+    {
+      "ordinal": 95,
+      "trainer_a": 535,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 3904944476,
+      "max_frames": 36000,
+      "match_id": "53ae5c8f3f99a4999a76cbfbaddb64916c3269f69a0b1339b9862faa75a8cbe2"
+    },
+    {
+      "ordinal": 96,
+      "trainer_a": 526,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 644036901,
+      "max_frames": 36000,
+      "match_id": "3950aaf5c9d0cbffb43f79849af8c39e544a26e3025deb0bdba8f15a57f4e6f0"
+    },
+    {
+      "ordinal": 97,
+      "trainer_a": 605,
+      "trainer_b": 526,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1958663929,
+      "max_frames": 36000,
+      "match_id": "1a5ae1f8fc4fe792c332bb86d890c47cbb3d19d9340c0ebe2bb1c5239b7ed35d"
+    },
+    {
+      "ordinal": 98,
+      "trainer_a": 526,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1880423941,
+      "max_frames": 36000,
+      "match_id": "3cfe185087536c6d72c6f476bfd4d8b068794444c1a8c8d4e1bcfc18c95d02bc"
+    },
+    {
+      "ordinal": 99,
+      "trainer_a": 605,
+      "trainer_b": 526,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1055189999,
+      "max_frames": 36000,
+      "match_id": "7b0415392fbccbc8465191bd46e9eed08526052f8a9170d9f40a8af0db4937e5"
+    },
+    {
+      "ordinal": 100,
+      "trainer_a": 532,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 1948751470,
+      "max_frames": 36000,
+      "match_id": "57ad33baa8efb9df80a4f151ddac8866bb8bd59f4035c124e2a9ea40eff24b5e"
+    },
+    {
+      "ordinal": 101,
+      "trainer_a": 535,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 1911886904,
+      "max_frames": 36000,
+      "match_id": "5e8bc13d11f8b18d447da5a2c03830a07911b19fba9dea06e8861803756b55f6"
+    },
+    {
+      "ordinal": 102,
+      "trainer_a": 532,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 2544825321,
+      "max_frames": 36000,
+      "match_id": "be81d379c2ddbad69f36dfb60b00a3c2f32a209505942608d8f6a83df205a221"
+    },
+    {
+      "ordinal": 103,
+      "trainer_a": 535,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 1044587713,
+      "max_frames": 36000,
+      "match_id": "dce3304db1d193b871fd0af370e7644db7fa298eaffdda0f08dd8e047198af55"
+    },
+    {
+      "ordinal": 104,
+      "trainer_a": 532,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 2167626053,
+      "max_frames": 36000,
+      "match_id": "4756f1d071abf91c87927b355c3579565423cdd132c845431a0a00102dd926e6"
+    },
+    {
+      "ordinal": 105,
+      "trainer_a": 605,
+      "trainer_b": 532,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 2751389724,
+      "max_frames": 36000,
+      "match_id": "15d90b2e89f589ab5752afc7000e4bd040d51ca41212a75f41033c9a04c03c4c"
+    },
+    {
+      "ordinal": 106,
+      "trainer_a": 532,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 1041979231,
+      "max_frames": 36000,
+      "match_id": "dabff6882741104aec381c9d84f8df9cc131491d9e0c9447c2df9804d0058164"
+    },
+    {
+      "ordinal": 107,
+      "trainer_a": 605,
+      "trainer_b": 532,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2409392282,
+      "max_frames": 36000,
+      "match_id": "4333bdce330f8c41735468947d4df44cb31a613a8b83766ec0a9613c76f30028"
+    },
+    {
+      "ordinal": 108,
+      "trainer_a": 535,
+      "trainer_b": 605,
+      "repetition": 0,
+      "orientation": 0,
+      "seed": 3026303673,
+      "max_frames": 36000,
+      "match_id": "5976595de0f997ba6b7cf8c6f9471f60e862c39cb9ae54e36f1eb171cae6143a"
+    },
+    {
+      "ordinal": 109,
+      "trainer_a": 605,
+      "trainer_b": 535,
+      "repetition": 0,
+      "orientation": 1,
+      "seed": 3551382152,
+      "max_frames": 36000,
+      "match_id": "bc6685a7bb8ac0cc0f95c9354d0b9a598df0b9d4015a5b86f128b0d05a91926e"
+    },
+    {
+      "ordinal": 110,
+      "trainer_a": 535,
+      "trainer_b": 605,
+      "repetition": 1,
+      "orientation": 0,
+      "seed": 4069896333,
+      "max_frames": 36000,
+      "match_id": "923c8e4ac99d3756f18fd23486981c82a4607774adc88acb4e337faae3976172"
+    },
+    {
+      "ordinal": 111,
+      "trainer_a": 605,
+      "trainer_b": 535,
+      "repetition": 1,
+      "orientation": 1,
+      "seed": 2804066496,
+      "max_frames": 36000,
+      "match_id": "4f9f0d9ac74a26f0657e8765ba0b8261b780346ac4441f47b968849bd9f31f7d"
+    }
+  ]
+}
