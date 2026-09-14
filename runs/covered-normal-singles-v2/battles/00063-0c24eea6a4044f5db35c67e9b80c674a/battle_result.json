@@ -1,0 +1,32 @@
+{
+  "rng_at_stop": 2520217829,
+  "stopped_party_sha256": "f4f7c592ba7f8a7cb38b188c482b3b2731351226dea47bc9e714f75bc1767a3c",
+  "trace_event_count": 26,
+  "trainer_a": 532,
+  "trainer_b": 320,
+  "seed": 3602809440,
+  "outcome": "b_win",
+  "terminal_from_engine": true,
+  "frames": 2489,
+  "turns": 2,
+  "rng_start": 3602809440,
+  "rng_after_party_init": 2867336526,
+  "rng_final": 2520217829,
+  "initial_party_sha256": "87d3699d5a35db6042a53d6379e95518bb1b4d9135c438e24006ffe055ed827d",
+  "trace_sha256": "0b2d053f424d8f55fa78f3a33a27428c096d6e87afb273ba4aa7e0f6598cc2c0",
+  "max_frames": 36000,
+  "provenance": {
+    "rom_sha256": "333eaa57becc26f98c805c4ba7f7cc3cab82d5604281f6c3fd5a1ab6ed23ff3e",
+    "elf_sha256": "1dc28f9ce64ede434d1b61462d6ed8eccbcba77b7df741ff8e40f2b37918f348",
+    "checkpoint_sha256": "87c1eb81812a9e8695a8da4d5afe7e76c76b71559812fd323a2b6013f5f1453b",
+    "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+    "rules_version": 1,
+    "abi_version": 2,
+    "compiler_version": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "emulator_version": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+    "adapter_version": "71f5c05d2667e6eb15fa27b969fc72f87ece27cb17be5278359a4ff1aa6a7000",
+    "pokeemerald_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "checkpoint_entry": "TournamentReady after normal new-game initialization",
+    "validation_evidence": "build/reports/constructor-validation.json; construction only"
+  }
+}

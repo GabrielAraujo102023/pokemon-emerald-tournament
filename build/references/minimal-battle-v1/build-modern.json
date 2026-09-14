@@ -1,0 +1,40 @@
+{
+  "command": [
+    "make",
+    "modern",
+    "DINFO=1",
+    "-j4"
+  ],
+  "cwd": "/Users/gaby/Desktop/the box/pokemon-tournament/build/pokeemerald",
+  "compiler": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "source_commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "path": "/opt/devkitpro/devkitARM/bin:/opt/homebrew/bin:/opt/devkitpro/tools/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/Users/gaby/.pyenv/shims:/Users/gaby/.pyenv/bin:/Users/gaby/.nvm/versions/node/v20.18.0/bin:/Users/gaby/.bun/bin:/Users/gaby/Documents/GCP cli/google-cloud-sdk/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/usr/local/go/bin:/Users/gaby/.codex/tmp/arg0/codex-arg0FmrByb:/Users/gaby/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Library/Frameworks/Python.framework/Versions/3.13/bin:/Users/gaby/.pyenv/bin:/Users/gaby/.nvm/versions/node/v20.18.0/bin:/Users/gaby/Library/pnpm:/Users/gaby/.bun/bin:/Users/gaby/Documents/GCP cli/google-cloud-sdk/bin:/Users/gaby/.docker/bin:/Users/gaby/.local/bin:/Users/gaby/.orbstack/bin:/Users/gaby/go/bin:/Users/gaby/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Users/gaby/.local/bin:/Users/gaby/.orbstack/bin:/Users/gaby/go/bin:/Users/gaby/.local/bin",
+  "variant": "modern DINFO=1; not retail-matching",
+  "returncode": 0,
+  "source_changes": {
+    "src/battle_ai_switch_items.c": "920c65cf1761e1f7559f337f0a405ffcc93be7245d126e3609d19d1bc9a8d060",
+    "src/battle_script_commands.c": "d5344af67527afa410dda3090e91cac637df7ba83cd2c41c387faff5b7395845",
+    "src/intro.c": "ed3f9c751de6e69322d9d9100b0481585765a67a4dc97032a307b6cb75409d73",
+    "src/battle_controller_opponent.c": "a26093dae6f4d66d4329eba5fa0be8688e9f1d22d77168a5e18388b9383fc586",
+    "src/overworld.c": "5f9682e67876085ab45ef5457f47e24d9a7d5c9ecca9a5a7e6f04e8ddae4e63a",
+    "src/battle_ai_script_commands.c": "35ffc6a32220a2b5789ef3079fbcafd8f8a5147546ad9c21c669767f1f0cda31",
+    "src/random.c": "a7b03d4d9e37f09e51bec11f843a1b28e232d0ddd324b4c06a1c78e5c964ae9f",
+    "src/battle_util.c": "8073135b5ce94b227fe5ebd5d29ff12a754369af5bcd0c14968ecb16b946f392",
+    "src/battle_controller_player.c": "b6713b84f0fcd494e7fec925cefe3057b5bcb7f7404a6abd933d8c5c5af31d85",
+    "src/tournament_adapter.c": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+    "src/pokemon.c": "7d73cd7944152630e63e1785e8a3639e7e176f52ca1b21ac3bc6ce3180f1eda8",
+    "src/battle_main.c": "e866ac26fb3b22080e6c6d3ed43969ba540b38e98dacacb2c371468b63f78abc",
+    "src/battle_message.c": "30d35312d6dbdbb3da0ec23f834d12e546f457be414812dc39df8e8c51ea6fae"
+  },
+  "config_sha256": "3a2483c01107a62c83542190016cfc28bb43b5093eef63a34082898583c9393b",
+  "artifacts": {
+    "pokeemerald_modern.gba": {
+      "path": "/Users/gaby/Desktop/the box/pokemon-tournament/build/pokeemerald/pokeemerald_modern.gba",
+      "sha256": "1000775b2aacbbddf16a0f4cdc1c5ab3f1aecb20f64c88587fd1e2e244ee9e31"
+    },
+    "pokeemerald_modern.elf": {
+      "path": "/Users/gaby/Desktop/the box/pokemon-tournament/build/pokeemerald/pokeemerald_modern.elf",
+      "sha256": "60cefbc32f905e59f3854bf8fded9f6d9f45711c91936a817391a493eb6149c5"
+    }
+  }
+}

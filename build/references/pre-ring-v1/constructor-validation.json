@@ -1,0 +1,29 @@
+{
+  "kind": "actual ARM constructor validation; no battle execution",
+  "instrumented": true,
+  "emulator": "emerald-mgba-bridge ABI 1; mGBA 0.10.5 (26b7884bc25a5933960f3cdcd98bac1ae14d42e2)",
+  "compiler": "arm-none-eabi-gcc (devkitARM) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "adapter_sha256": "9248ed60e4840dec0f48e578990819271be1dfc6ca7bcd94b8905abe56a5fcc8",
+  "rules_version": 1,
+  "rom_sha256": "2a42bbe0d42f42ad50b04c0e2098c9b36c866e445ddf162a9944c31b2483b820",
+  "elf_sha256": "44ac9fa50ebc9ff4251db9fa1cd67d7f102af84253f3b7ddf40307e0209f5491",
+  "checkpoint_sha256": "f7b53e82ee1c6402d94fb90815a0dafec3ae526eeef14f0d24eaae6132963fcc",
+  "bridge_sha256": "08e88ed066dc24a3c7222292602438ca3d9a987cf00b390658b513b24cdfb75c",
+  "same_seed_rng_trace_equal": true,
+  "rng_calls": [
+    54,
+    54,
+    54
+  ],
+  "same_seed_raw_equal": true,
+  "same_seed_decoded_equal": true,
+  "same_seed_post_rng_equal": true,
+  "different_seed_raw_differs": true,
+  "different_seed_post_rng_differs": true,
+  "post_rng": [
+    1510019643,
+    1510019643,
+    3782091108
+  ],
+  "party_count": 7
+}
